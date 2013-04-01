@@ -7,7 +7,9 @@ tagline: One handed blog management using Android and GitHub pages
 
 <div class="hero-unit">
 
-<h1>Teddy Hyde: one-handed creation on your Jekyll blog hosted on GitHub.</h1>
+<h1>Teddy Hyde</h1>
+
+No comprises editing of your Jekyll blog on github from your android phone.
 
 </div>
 
