@@ -16,18 +16,25 @@ No comprises editing of your Jekyll blog on github from your android phone.
 <div class="row">
 <div class="span4">
 <ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+
+
+{% capture sidebar %}{% include blog.md %}{% endcapture %}
+{{ sidebar | markdownify }}
+
 </ul>
 </div>
 
 <div class="span4">
-Something
-</div>
 
+{% capture sidebar %}{% include download.md %}{% endcapture %}
+{{ sidebar | markdownify }}
+
+</div>
 <div class="span4">
-Another.
+
+{% capture sidebar %}{% include migrate.md %}{% endcapture %}
+{{ sidebar | markdownify }}
+
 </div>
 </div>
 
