@@ -14,7 +14,7 @@ No comprises editing from your Android phone of your Jekyll blog hosted on GitHu
 <a href="https://github.com/mojombo/jekyll">Jekyll</a> is the open source static blogging engine from GitHub. Hosting of your Jekyll blog is free on GitHub. 
 
 <br/>
-Teddy Hyde is the open source Android editor for Jekyll blogs. Hyde is the other side of Jekyll. You might find it easier to edit your blog from your phone than your desktop. And, it is all synced to your GitHub account.
+Teddy Hyde is the open source Android editor for Jekyll blogs. Hyde is the other side of Jekyll. You might find it easier to edit your blog from your phone than your desktop. And, it is all synced to your GitHub account!
 </small>
 
 </div>
