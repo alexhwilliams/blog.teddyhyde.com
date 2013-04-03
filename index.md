@@ -21,6 +21,7 @@ Teddy Hyde is the open source Android editor for Jekyll blogs. Hyde is the other
 
 <div class="row">
 <div class="span4">
+<h3>Teddy Hyde Blog </h3>
 <ul class="posts">
 
 {% capture sidebar %}{% include blog.md %}{% endcapture %}
