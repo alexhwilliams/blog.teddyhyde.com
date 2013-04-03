@@ -18,3 +18,7 @@ I wanted to make a first class editor for my phone. Many have accused the iPad o
 
 When my son was born four months ago, I felt very challenged blogging, to say nothing about programming. Little babies like to be held. So, I wanted to make something that would allow me to blog one handed. My long term goal is that I can do more than just blog with this tool. I have ideas about using it for many one page web apps.
 
+# Extensible?
+
+Hyde transforms in the book and in Teddy Hyde. Upload a Yaml file to your repository and customize your editor.
+
