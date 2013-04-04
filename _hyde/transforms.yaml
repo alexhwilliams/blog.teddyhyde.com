@@ -1,0 +1,9 @@
+---
+- :prompt: 
+  :code: ! '<img src="{{IMAGE}}"><border=1>Hi there</span>
+
+    <whatever>
+
+'
+  :type: image
+  :version: 1

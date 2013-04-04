@@ -307,3 +307,38 @@ end
 
 #Load custom rake scripts
 Dir['_rake/*.rake'].each { |r| load r }
+
+namespace :teddyhyde do
+  desc "Add a new Teddy Hyde transform"
+  task "add" do
+    types = %w{ insert replace image }
+    puts "What type of transform do you want to add [insert/image]: "
+    type = STDIN.gets.chomp
+    if types.include? type
+
+      puts "Do you want a prompt for extra input? [yes/no]"
+      prompt = ( STDIN.gets.chomp =~ /y/i )
+
+      puts "Enter the code you want to insert. It can be multiple lines. Finish input with a single . character"
+      code = ""
+      while '.' != ( line = STDIN.gets.chomp )
+        code += line + "\n"
+      end
+
+      # verify prompt is correct
+      if prompt
+        puts "Your code should use {{PROMPT}} to replace the prompt response" unless code =~ /\{\{PROMPT\}\}/m
+      end
+
+      # Dump it out
+      stuff = []
+      transform = { prompt: prompt, code: code, type: type, version: 1 }
+      stuff << transform
+      
+      puts YAML.dump( stuff )
+    else
+      puts "Invalid entry"
+    end
+      
+  end
+end
