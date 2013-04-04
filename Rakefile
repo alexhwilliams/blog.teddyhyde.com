@@ -308,6 +308,8 @@ end
 #Load custom rake scripts
 Dir['_rake/*.rake'].each { |r| load r }
 
+require 'json'
+
 namespace :teddyhyde do
   desc "Add a new Teddy Hyde transform"
   task "add" do
@@ -318,6 +320,11 @@ namespace :teddyhyde do
 
       puts "Do you want a prompt for extra input? [yes/no]"
       prompt = ( STDIN.gets.chomp =~ /y/i )
+
+      if prompt
+        puts "Enter the text for which you want to prompt the user"
+        prompt = STDIN.gets.chomp
+      end
 
       puts "Enter the code you want to insert. It can be multiple lines. Finish input with a single . character"
       code = ""
@@ -334,7 +341,7 @@ namespace :teddyhyde do
       end
 
       if "image" == type
-        unless code =~ /\{\{IMAGE\}\}/M
+        unless code =~ /\{\{IMAGE\}\}/m
           puts "your code should have {{IMAGE}} which will be replaced with the image reference"
           exit
         end
@@ -348,7 +355,7 @@ namespace :teddyhyde do
       transform = { prompt: prompt, code: code, type: type, version: 1, name: name }
       stuff << transform
       
-      puts YAML.dump( stuff )
+      puts stuff.to_json
     else
       puts "Invalid entry"
     end
