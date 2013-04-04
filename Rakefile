@@ -327,12 +327,25 @@ namespace :teddyhyde do
 
       # verify prompt is correct
       if prompt
-        puts "Your code should use {{PROMPT}} to replace the prompt response" unless code =~ /\{\{PROMPT\}\}/m
+        unless code =~ /\{\{PROMPT\}\}/m
+          puts "Your code should use {{PROMPT}} to replace the prompt response" 
+          exit
+        end
       end
 
+      if "image" == type
+        unless code =~ /\{\{IMAGE\}\}/M
+          puts "your code should have {{IMAGE}} which will be replaced with the image reference"
+          exit
+        end
+      end
+
+      puts "Give this a short name for the menu"
+      name = STDIN.gets.chomp
+      
       # Dump it out
       stuff = []
-      transform = { prompt: prompt, code: code, type: type, version: 1 }
+      transform = { prompt: prompt, code: code, type: type, version: 1, name: name }
       stuff << transform
       
       puts YAML.dump( stuff )
