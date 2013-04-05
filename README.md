@@ -4,8 +4,7 @@ The quickest way to start and publish your Jekyll powered blog. 100% compatible 
 
 ## Usage
 
-bar
-
+arg
 
 For all usage and documentation please see: <http://jekyllbootstrap.com>
 
