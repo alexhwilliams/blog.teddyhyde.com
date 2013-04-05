@@ -4,6 +4,10 @@ The quickest way to start and publish your Jekyll powered blog. 100% compatible 
 
 
 
+
+![http://teddyhyde.com/assets/images/2013-04-05-08-05-01-image-resized.png](http://teddyhyde.com/assets/images/2013-04-05-08-05-01-image-resized.png)<img src="http://teddyhyde.com/assets/images/2013-04-05-07-43-02-image.png" style="border-color: green">
+
+
 ## Usage
 
 For all usage and documentation please see: <http://jekyllbootstrap.com>
