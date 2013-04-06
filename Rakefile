@@ -363,6 +363,8 @@ namespace :teddyhyde do
       # Join them together
       old << transform
 
+      puts old.to_json
+
       new = ""
       if answer =~ /y/i 
         new = `echo '#{old.to_json}' | python -m json.tool`
@@ -370,10 +372,7 @@ namespace :teddyhyde do
         new = old.to_json
       end
 
-      # Update the file
-      File.open "w+", "_hyde/transform.json" do |f|
-        f.write new
-      end
+      puts new
     else
       puts "Invalid entry"
     end
