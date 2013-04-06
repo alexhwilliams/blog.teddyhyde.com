@@ -3,7 +3,7 @@ layout: page
 category: 
 tagline: 
 tags : [] 
-published: false
+published: true
 ---
 
 # A new page #
