@@ -1,3 +1,4 @@
+# test
 require "rubygems"
 require 'rake'
 require 'yaml'
@@ -312,7 +313,7 @@ require 'json'
 
 namespace :teddyhyde do
   desc "Add a new Teddy Hyde transform"
-  task "add" do
+  task "transform" do
     types = %w{ insert replace image }
     puts "What type of transform do you want to add [insert/image]: "
     type = STDIN.gets.chomp
@@ -353,9 +354,25 @@ namespace :teddyhyde do
       # Dump it out
       stuff = []
       transform = { prompt: prompt, code: code, type: type, version: 1, name: name }
-      stuff << transform
-      
-      puts stuff.to_json
+
+      old = JSON.parse File.read( "_hyde/transforms.json" )
+
+      puts "Do you want to run this through the python pretty printer (requires python and json.tool)"
+      answer = STDIN.gets.chomp
+
+      # Join them together
+      old << transform
+
+      puts old.to_json
+
+      new = ""
+      if answer =~ /y/i 
+        new = `echo '#{old.to_json}' | python -m json.tool`
+      else
+        new = old.to_json
+      end
+
+      puts new
     else
       puts "Invalid entry"
     end
