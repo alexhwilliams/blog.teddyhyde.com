@@ -19,3 +19,4 @@ Teddy Hyde makes some assumptions about handling images.
 1. If Teddy Hyde uploads the image, it puts it in assets/images with the file name as the date.
 2. Teddy Hyde will store a thumbnail, resized image and the original. 
 3. You can insert any of those three sizes from the menu when editing a post or page.
+
