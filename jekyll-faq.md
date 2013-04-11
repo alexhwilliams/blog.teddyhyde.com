@@ -12,7 +12,7 @@ published: false
 
 Are you on the correct branch? If the URL to your site is in the form something.github.io (or the old something.github. com) then your changes should be in the master branch. If your site is your own personal domain like something.com then the changes should go into the gh-pages branch.
 
-*I have pushed up a new site but when I go to something. com github tells me no page is here*
+*I have pushed up a new site but when I go to something.com github tells me no page is here*
 
 Check these three things:
 
