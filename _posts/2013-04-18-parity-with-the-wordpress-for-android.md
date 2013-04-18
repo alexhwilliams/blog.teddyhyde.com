@@ -30,5 +30,6 @@ Plus, you get a nice preview feature just a swipe away.
 
 ## Image support ##
 
-Teddy Hyde will publish images right into your repository. And, provide you with the original image, and thumbnail and a resized image great for mobile devices.
+![http://blog.teddyhyde.com/assets/images/2013-04-18-06-23-49-image-resized.png](http://blog.teddyhyde.com/assets/images/2013-04-18-06-23-49-image-resized.png)
 
+Teddy Hyde will publish images right into your repository. And, provide you with the original image, and thumbnail and a resized image great for mobile devices.
