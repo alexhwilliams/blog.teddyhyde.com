@@ -44,7 +44,9 @@ Hyde Transformations are, in my opinion, the coolest thing about Teddy Hyde. You
 
 Read more about them here.
 
+## Collaboration ##
 
+Anyone with rights to the repository can edit. with versioning built in.
 
 # The Future #
 
