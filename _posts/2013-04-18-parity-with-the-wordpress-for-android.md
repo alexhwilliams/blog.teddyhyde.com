@@ -23,3 +23,7 @@ Teddy Hyde has almost everything here. Posts and pages. Which things are missing
 Teddy Hyde has most of these. And, markdown can easily be entered by hand if missing from a menu. 
 
 ![http://blog.teddyhyde.com/assets/images/2013-04-18-06-18-53-image-resized.png](http://blog.teddyhyde.com/assets/images/2013-04-18-06-18-53-image-resized.png)
+
+Plus, you get a nice preview feature just a swipe away.
+
+![http://blog.teddyhyde.com/assets/images/2013-04-18-06-21-09-image-resized.png](http://blog.teddyhyde.com/assets/images/2013-04-18-06-21-09-image-resized.png)
