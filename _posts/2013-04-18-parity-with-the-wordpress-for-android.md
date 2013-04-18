@@ -36,11 +36,15 @@ Teddy Hyde will publish images right into your repository. And, provide you with
 
 # Going beyond parity #
 
+## Hyde Transformations ##
+
 Hyde Transformations are, in my opinion, the coolest thing about Teddy Hyde. You can extend your editor with a little bit of JSON code checked in to your repository.
 
 ![http://blog.teddyhyde.com/assets/images/2013-04-18-06-43-06-image-resized.png](http://blog.teddyhyde.com/assets/images/2013-04-18-06-43-06-image-resized.png)
 
 Read more about them here.
+
+
 
 # The Future #
 
