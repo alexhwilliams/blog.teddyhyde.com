@@ -47,7 +47,7 @@ Read more about them here.
 Teddy Hyde is open source. Fork it on Github! And, these are the things I want to do in the short term.
 
 1. Preferences page
-2. Long press to toggle YFM (YAML Front Matter) publish state.
+2. Long press to toggle YFM (YAML Front Matter) publish state, going from published to private or vice versa.
 3. YFM editor.
 
 What do you want in your editor?
