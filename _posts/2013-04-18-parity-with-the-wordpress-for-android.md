@@ -48,3 +48,5 @@ Teddy Hyde is open source. Fork it on Github! And, these are the things I want t
 
 1. Preferences page
 2. 
+
+What do you want in your editor?
