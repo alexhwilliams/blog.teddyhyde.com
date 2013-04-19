@@ -20,5 +20,5 @@ When my son was born four months ago, I felt very challenged blogging, to say no
 
 # Extensible?
 
-Hyde transforms in the book and in Teddy Hyde. Upload a Yaml file to your repository and customize your editor.
+Hyde transforms in the book and in Teddy Hyde. Upload a JSON file to your repository and customize your editor.
 
