@@ -8,7 +8,7 @@ published: true
 
 ![http://blog.teddyhyde.com/assets/images/2013-04-18-06-13-46-image-resized.png](http://blog.teddyhyde.com/assets/images/2013-04-18-06-13-46-image-resized.png)
 
-Teddy Hyde has almost everything here. Posts and pages. Which things are missing?
+Teddy Hyde has almost everything here. Posts and pages. Let's explore those that are missing, and see the things I think make Teddy Hyde better than WordPress.
 
 ## The editor ##
 
