@@ -10,9 +10,9 @@ published: true
 
 Write your page here, using Markdown.
 
-![http://teddyhyde.com/assets/images/2013-04-05-08-48-58-image-resized.png](http://teddyhyde.com/assets/images/2013-04-05-08-48-58-image-resized.png)
+![http://blog.teddyhyde.com/assets/images/2013-04-05-08-48-58-image-resized.png](http://blog.teddyhyde.com/assets/images/2013-04-05-08-48-58-image-resized.png)
 
-![http://teddyhyde.com/assets/images/2013-04-05-03-29-52-image-resized.png](http://teddyhyde.com/assets/images/2013-04-05-03-29-52-image-resized.png)
+![http://blog.teddyhyde.com/assets/images/2013-04-05-03-29-52-image-resized.png](http://blog.teddyhyde.com/assets/images/2013-04-05-03-29-52-image-resized.png)
 
 
         {
