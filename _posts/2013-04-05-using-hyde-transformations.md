@@ -6,9 +6,7 @@ tags : []
 published: true
 ---
 
-# A new page #
-
-Write your page here, using Markdown.
+Hyde Transforms allow you to customize your editor. Technically a Hyde transform is a bit of JSON which the Teddy Hyde editor loads and precesses when it loads
 
 ![/assets/images/2013-04-05-08-48-58-image-resized.png](/assets/images/2013-04-05-08-48-58-image-resized.png)
 
