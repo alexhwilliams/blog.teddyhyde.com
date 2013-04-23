@@ -21,3 +21,11 @@ Hyde Transforms allow you to customize your editor. Technically a Hyde transform
             "version": 1
         }
     ]
+
+## the future ##
+
+third party data services
+
+    source: http://foo.com
+    array: true
+    type: insert
