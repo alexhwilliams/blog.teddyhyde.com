@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Teddy Hyde: the no compromise, extensible, one-handed Jekyll blog editor for Android
 category: 
 tagline: 
 tags : [] 
