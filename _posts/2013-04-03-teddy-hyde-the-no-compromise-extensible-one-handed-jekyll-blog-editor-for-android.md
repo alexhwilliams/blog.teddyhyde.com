@@ -4,7 +4,7 @@ title: Teddy Hyde: the no compromise, extensible, one-handed Jekyll blog editor 
 category: 
 tagline: 
 tags : [] 
-published: false
+published: true
 ---
 
 # Teddy Hyde?
@@ -21,5 +21,5 @@ When my son was born four months ago, I felt very challenged blogging, to say no
 
 # Extensible?
 
-Hyde transforms in the book and in Teddy Hyde. Upload a Yaml file to your repository and customize your editor.
+Hyde transforms in the book and in Teddy Hyde. Upload a JSON file to your repository and customize your editor.
 

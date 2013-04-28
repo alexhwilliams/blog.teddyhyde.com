@@ -6,13 +6,11 @@ tags : []
 published: true
 ---
 
-# A new page #
+Hyde Transforms allow you to customize your editor. Technically a Hyde transform is a bit of JSON which the Teddy Hyde editor loads and precesses when it loads
 
-Write your page here, using Markdown.
+![/assets/images/2013-04-05-08-48-58-image-resized.png](/assets/images/2013-04-05-08-48-58-image-resized.png)
 
-![http://teddyhyde.com/assets/images/2013-04-05-08-48-58-image-resized.png](http://teddyhyde.com/assets/images/2013-04-05-08-48-58-image-resized.png)
-
-![http://teddyhyde.com/assets/images/2013-04-05-03-29-52-image-resized.png](http://teddyhyde.com/assets/images/2013-04-05-03-29-52-image-resized.png)
+![/assets/images/2013-04-05-03-29-52-image-resized.png](/assets/images/2013-04-05-03-29-52-image-resized.png)
 
 
         {
@@ -23,3 +21,11 @@ Write your page here, using Markdown.
             "version": 1
         }
     ]
+
+## the future ##
+
+third party data services
+
+    source: http://foo.com
+    array: true
+    type: insert
