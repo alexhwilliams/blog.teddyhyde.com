@@ -14,4 +14,5 @@ Thinking of digging into the editor code to contribute? This document will get y
 
 1. A user logs in
 2. Teddy Hyde logs in and grabs an auth token. This token is stored in the preferences of the app so each activity can use it easily.
-1. Once login is successful, the app starts the repository activity. This
+1. Once login is successful, the app starts the repository activity. This activity uses the token retrieved from the Github API to grab a list of repositories for display in a list view.
+1. The specialized list view adapter sorts the repositories by name, putting those named either *.github.io or ending in .com first. Since Teddy Hyde is first and foremost a Jekyll blog editor it expects you will want to see those at the top of your list.
