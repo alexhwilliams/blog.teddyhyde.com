@@ -17,7 +17,7 @@ I wanted to make a first class editor for my phone. Many have accused the iPad o
 
 ## One handed?
 
-When my son was born four months ago, I felt very challenged blogging, to say nothing about programming. Little babies like to be held. So, I wanted to make something that would allow me to blog one handed. My long term goal is that I can do more than just blog with this tool. I have ideas about using it for many one page web apps.
+When my son was born four months ago, I felt very challenged blogging, to say nothing about programming. Little babies like to be held, and Emacs keybindings require two hands to operate. I wanted to make something that would allow me to blog one handed. Let's leverage the power of a mobile device to make a better writing tool than you can get out of a stodgy old laptop. My long term goal is that I can do more than just blog with this tool. I have ideas about using it for many one page web apps.
 
 ## Extensible?
 
