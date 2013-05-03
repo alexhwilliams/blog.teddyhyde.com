@@ -13,5 +13,7 @@ published: false
 1. Teddy == editor
 1. Teddy is nickname of Edward begun in Victorian era.
 1. Edward Hyde was full name in story
-1. 
+1. blogging is about self discovery
+1. j&h was also about discovery
+
 
