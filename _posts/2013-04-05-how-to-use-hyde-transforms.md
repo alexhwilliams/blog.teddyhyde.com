@@ -24,3 +24,12 @@ Write your page here, using Markdown.
             "version": 1
         }
     ]
+
+## The future
+
+### Addressable sharing intents
+
+Add ability to recognize a shared URL coming into Teddy Hydeand do something with it in your transform.
+
+### 
+
