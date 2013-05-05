@@ -24,8 +24,16 @@ Hyde Transforms allow you to customize your editor. Technically a Hyde transform
 
 ## the future ##
 
-third party data services
+### third party data services
 
     source: http://foo.com
     array: true
     type: insert
+
+### Addressable sharing intents
+
+Add ability to recognize a shared URL coming into Teddy Hydeand do something with it in your transform.
+
+### Context sensitive transforms based on file type
+
+add a field to transform for extension and only enable if extension matches.
