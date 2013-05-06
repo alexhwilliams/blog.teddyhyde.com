@@ -23,6 +23,8 @@ When my son was born four months ago, I felt very challenged blogging, to say no
 
 Hyde transforms in the book and in Teddy Hyde. Upload a JSON file to your repository and customize your editor.
 
+Read more on [Hyde Transforms](2013/04/05/using-hyde-transformations/)
+
 ## More than just a blog editor. A general purpose Github editor.
 
 Teddy Hyde is optimized for Jekyll blogging. But, you can use it to edit any text based file stored in your github repositories.
