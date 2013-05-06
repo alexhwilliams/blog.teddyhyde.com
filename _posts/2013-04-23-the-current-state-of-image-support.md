@@ -3,7 +3,7 @@ layout: page
 category: 
 tagline: 
 tags : [] 
-published: false
+published: true
 ---
 
 Well, you can upload images! And, Teddy Hyde will upload a resized version (200x200 with aspect ratio maintained) and a thumbnail.
