@@ -57,7 +57,6 @@ No comprises editing of your Jekyll blog from your Android device
 <a href="/archive.html">See all the archives</a>
 
 </div>
->>>>>>> 3b3e178cdf33881c0a92dec9a71e3075c3188fc9
 </div>
 </div>
 
