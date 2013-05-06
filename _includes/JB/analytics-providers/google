@@ -2,6 +2,7 @@
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);
   _gaq.push(['_setDomainName', 'teddyhyde.com']);
+  _gaq.push(['_setDomainName', '{{ site.JB.analytics.google.domain_name }} ']);
   _gaq.push(['_trackPageview']);
 
   (function() {

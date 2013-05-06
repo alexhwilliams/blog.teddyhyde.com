@@ -15,8 +15,11 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    {% unless site.JB.bootswatch == null %}
+    <link href="{{ ASSET_PATH }}/bootstrap/css/{{ site.JB.bootswatch }}-bootstrap.min.css" rel="stylesheet">
+    {% else %}
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    {% endunless %}
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
@@ -54,9 +57,28 @@
       </div>
       <hr>
       <footer>
+<<<<<<< HEAD
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+=======
+        <p class="text-center">
+          &copy; {{ site.time | date: '%Y' }} / {{ site.author.name }} / 
+          {{ site.title }}
+        </p>
+        <p class="text-center">
+          Created using <a href="https://teddyhyde.com">Teddy Hyde: no
+          compromises Jekyll blogging</a>
+        </p>
+        <p class="muted text-center">
+          <small>
+          using <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/"
+          target="_blank">Twitter Bootstrap</a>
+          and
+          <a href="http://bootswatch.com/" target="_blank">Bootswatch</a>
+          </small>
+>>>>>>> 3b3e178cdf33881c0a92dec9a71e3075c3188fc9
         </p>
       </footer>
 
