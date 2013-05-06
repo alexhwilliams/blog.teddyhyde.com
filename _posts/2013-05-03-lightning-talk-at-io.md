@@ -19,5 +19,5 @@ published: false
 1. Hyde transforms
 1. swipe to preview
 1. edit any text file on github.
-
+1. open source
 
