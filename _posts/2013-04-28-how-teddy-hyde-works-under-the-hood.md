@@ -15,3 +15,4 @@ Thinking of digging into the editor code to contribute? This document will get y
 1. Once login is successful, the app starts the repository activity. This activity uses the token retrieved from the Github API to grab a list of repositories for display in a list view.
 1. The specialized list view adapter sorts the repositories by name, putting those with names ending in github.io or in .com first. Since Teddy Hyde is first and foremost a Jekyll blog editor it expects you will want to see those at the top of your list.
 1. 
+
