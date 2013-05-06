@@ -22,4 +22,4 @@ One of myths about WordPress is that there is a plugin for everything. The truth
 
 There are standards for plugin development. And, sometimes developers follow them. Would you buy a Honda which randomly included parts from a Trabant only 13% of the time? This is what you get with WordPress plugins.
 
-Quality is not the only issue. Performance is a big problem with these plugins and this is why companies like WPEngine have arisen. But, their business model requires lock-in and my experience is they cannot often solve big
+Quality is not the only issue. Performance is a big problem with these plugins and this is why companies like WPEngine have arisen. But, their business model requires lock-in and my experience is they cannot often solve big issues any better than rolling up your sleeves yourself.
