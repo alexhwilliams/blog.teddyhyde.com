@@ -48,7 +48,7 @@ Hyde Transformations are, in my opinion, the coolest thing about Teddy Hyde. You
 
 ![/assets/images/2013-04-18-06-43-06-image-resized.png](/assets/images/2013-04-18-06-43-06-image-resized.png)
 
-Read more about them here.
+Read more about [Hyde Transformations](/2013/04/05/using-hyde-transformations/).
 
 ## Collaboration ##
 
