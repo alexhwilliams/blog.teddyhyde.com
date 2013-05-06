@@ -18,5 +18,6 @@ published: false
 1. image support
 1. Hyde transforms
 1. swipe to preview
+1. edit any text file on github.
 
 
