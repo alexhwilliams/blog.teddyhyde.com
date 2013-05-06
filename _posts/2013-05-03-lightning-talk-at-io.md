@@ -17,5 +17,6 @@ published: false
 1. j&h was also about discovery
 1. image support
 1. Hyde transforms
+1. swipe to preview
 
 
