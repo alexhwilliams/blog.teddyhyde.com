@@ -4,7 +4,7 @@ category:
 tagline: 
 title: How Teddy Hyde works under the hood
 tags : [] 
-published: true
+published: false
 ---
 
 ## A brief overview of Teddy Hyde for nerds ##
