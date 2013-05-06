@@ -15,7 +15,7 @@ published: false
 1. Edward Hyde was full name in story
 1. blogging is about self discovery
 1. j&h was also about discovery
-
-
+1. image support
+1. Hyde transforms
 
 
