@@ -6,17 +6,15 @@ tags : []
 published: false
 ---
 
-upload images.
+Well, you can upload images! And, Teddy Hyde will upload a resized version (200x200 with aspect ratio maintained) and a thumbnail.
 
-grid view is ugly but usable.
+You are presented with theses images as a grid view. This grid view is ugly but usable.
 
-would be nice to add support for an image hosting service.
+I would really like to add support and integration for an image hosting service.
 
-resizes into three sizes: original, resized (200 width by 200, aspect ratio maintained) and thumbnail.
+Resize looks poor to me, perhaps there is a better image transform algorithm i could use.
 
-resize looks poor to me, perhaps there is a better image transform algorithm i could use.
-
-works with Hyde transforms.
+Images work with Hyde transforms, meaning if you specify type as image in your transform, you can prompt for an image, and when you choose it, insert it wrapped with some extra text, or modify the link using a Regexp.
 
 
 
