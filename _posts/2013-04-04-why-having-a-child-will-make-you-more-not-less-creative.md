@@ -8,7 +8,7 @@ published: false
 
 # A new page #
 
-While expecting our first child, I occilated between exuberance and terror. I was so excited to be a father. But, deep down, I was thinking: "Is this the end of my career as a software developer? Are my long periods of focus and solitude necessary for creativity gone for the next eighteen years? Will I soon be what I despise, a suited middle manager with bad eyesight?"
+While expecting our first child, I occilated between exuberance and terror. I was so excited to be a father. But, deep down, I was thinking: "Is this the end of my career as a software developer? Are my long periods of focus and solitude necessary for creativity gone for the next eighteen years? Will I soon be what I despise, a polyester suited middle manager with bad eyesight?"
 
 I was wrong. Four months into fatherhood I am experiencing some of my most creative moments. I do have less time to write software. But, the moments between when I am with my son (he is sleeping on my chest as I write this now) offer me pause and quiet to be present and think, and this makes my output better more satisfying.
 
