@@ -6,7 +6,7 @@ tags : []
 published: true
 ---
 
-Hyde Transforms allow you to customize your editor. Technically a Hyde transform is a bit of JSON which the Teddy Hyde editor loads and precesses when it loads
+Hyde Transforms allow you to customize your editor. Technically a Hyde transform is a bit of JSON which the Teddy Hyde editor loads and then adds menu items which allow you to do special insertions and more.
 
 Use these rake tasks to learn more.
 
