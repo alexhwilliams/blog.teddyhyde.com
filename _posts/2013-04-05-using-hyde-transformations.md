@@ -21,7 +21,7 @@ You'll see all valid transforms listed there.
 
 In this example, after clicking on "Hyde Transform..." I see two transforms, "Colored Image" (which prompts me to pick an image and then prompts for a border color to apply to that image) and "Angular FooCtrl" (which just inserts some HTML that could be used to apply an [AngularJS](http://angularjs.org) controller)
 
-
+![/assets/images/2013-05-08-06-53-26-image-resized.png](/assets/images/2013-05-08-06-53-26-image-resized.png)
 
 The simplest transform is just an insert. When you choose this one in the menu, it will insert the text in the code attribute of the JSON. Here is an example.
 
