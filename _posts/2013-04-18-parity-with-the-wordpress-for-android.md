@@ -58,9 +58,11 @@ Anyone with rights to the repository can edit. with versioning built in.
 
 Teddy Hyde is open source. [Fork it on Github](http://github.com/xrd/TeddyHyde)! And, these are the things I want to do in the short term.
 
-1. Preferences page
+1. Preferences page/activity
 2. Long press to toggle YFM (YAML Front Matter) publish state, going from published to private or vice versa.
 3. YFM editor.
 4. long press to switch layout
+
+Check the bugs on GitHub for a full list of enhancements planned.
 
 What do you want in your editor?
