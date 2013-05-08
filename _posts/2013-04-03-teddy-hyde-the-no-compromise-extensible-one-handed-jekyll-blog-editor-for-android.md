@@ -15,7 +15,7 @@ Did you know Teddy was a nickname for Edward that gained popularity in the Victo
 
 I wanted to make a first class editor for my phone. Many have accused the iPad of being only a consumption device. I think I agree. But, I think we can make cool creation tools for handheld devices.
 
-Nowadays I actually prefer editing on my phone with Teddy Hyde. I can blog using speech recognition, quick swipe to preview. And, publishing is as simple as clicking "save file" rather than typing multiple git commands add/commit/push things up.
+Nowadays I actually prefer editing on my phone with Teddy Hyde. I can blog using speech recognition, and quick swipe to preview. And, publishing is as simple as clicking "save file" rather than typing multiple git commands add/commit/push things up.
 
 ## One handed?
 
