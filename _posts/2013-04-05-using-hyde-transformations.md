@@ -81,9 +81,11 @@ Insert or choose from a dynamic service that returns JSON.
 
 Android has awesome intents. Add the ability to recognize a shared URL coming into Teddy Hyde and do something with it in your transform.
 
+{{% share = "[{{PROMPT}}]({{URL}})" %}}
+
     source: "share",
     type: "url",
-    code: "[{{PROMPT}}]({{URL}})
+    code: "{{share}}",
     prompt: "Give this link a caption"
 
 This might allow you to share a URL into Teddy Hyde from another application and then insert it as a link into your markdown text.
