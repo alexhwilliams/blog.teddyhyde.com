@@ -53,7 +53,7 @@ You can run filters on the results, for example, when you want to escape HTML or
 
 You can even run a regex search and replace. For example, imagine you want to swap png extensions for jpg.
 
-    "code": "<img src="&#123;&#123;PROMPT|/\.png$/\.jpg/&#125;&#125;"/>",
+    "code": "<img src="&#123;&#123;IMAGE|/\.png$/\.jpg/&#125;&#125;"/>",
 
 
 ### Caveats ###
