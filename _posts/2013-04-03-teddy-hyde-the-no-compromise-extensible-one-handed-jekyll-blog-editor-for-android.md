@@ -30,3 +30,7 @@ More about [Hyde Transforms](/2013/04/05/using-hyde-transformations/).
 ## More than just a blog editor. A general purpose Github editor.
 
 Teddy Hyde is optimized for Jekyll blogging. But, you can use it to edit any text based file stored in your github repositories.
+
+## No iOS?
+
+Teddy Hyde is not yet available for iOS. And, it is open source, available on GitHub. [Fork me](http://github.com/xrd/TeddyHyde) and let's build the best mobile editor for Jekyll and GitHub.
