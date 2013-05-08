@@ -1,6 +1,4 @@
 
 ### Download
 
-Download the app on Google Play
-
-Or, if you prefer not to use Google Play, download it here
+[Download the app on Google Play](https://play.google.com/store/apps/details?id=com.EditorHyde.app)
