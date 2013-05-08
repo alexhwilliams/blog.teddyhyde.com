@@ -39,21 +39,21 @@ The simplest transform is just an insert. When you choose this one in the menu, 
 
 You can prompt the user for information. Teddy Hyde will prompt the user and then replace the text with the placeholder &#123;&#123;PROMPT&#125;&#125;.
 
-{% assign prompt = "{{PROMPT}}" %>
+{% assign prompt = "{{PROMPT}}" %}
 
     "code": "You answered {{prompt}} (the correct answer is 44)",
     "prompt": "At what age did Robert Louis Stevenson die?"
 
 You can insert text as we saw above. You can also choose an image and then insert code with the image URI. For example:
 
-{% assign image = "{{IMAGE}}" %>
+{% assign image = "{{IMAGE}}" %}
 
     "code": "<img src="{{image}}",
     "type": "image", 
 
 You can run filters on the results, for example, when you want to escape HTML or URL encode it. Valid filters are "html", "url", "escdblquotes".
 
-{% assign image_escaped = "{{IMAGE|url}}" %>
+{% assign image_escaped = "{{IMAGE|url}}" %}
 
     "code": "<img src="http://imagegeneratorserver.com/?url={{image_escaped}}/>",
     "type": "image", 
