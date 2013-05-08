@@ -47,8 +47,7 @@ You can insert text as we saw above. You can also choose an image and then inser
 
 You can run filters on the results, for example, when you want to escape HTML or URL encode it. Valid filters are "html", "url", "escdblquotes".
 
-    "code": "<img src="http://imagegeneratorserver.com/?url=|&#123;&#123;IMAGE|url
-&#125;&#125;/>",
+    "code": "<img src="http://imagegeneratorserver.com/?url=|&#123;&#123;IMAGE|url&#125;&#125;/>",
     "type": "image", 
 
 You can even run a regex search and replace. For example, imagine you want to swap png extensions for jpg.
