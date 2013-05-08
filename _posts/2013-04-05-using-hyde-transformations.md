@@ -7,7 +7,7 @@ published: true
 title: "Using Hyde Transforms"
 ---
 
-Hyde Transforms allow you to customize the Teddy Hyde editor. Technically a Hyde Transform is a bit of JSON which the Teddy Hyde editor loads and then adds menu items which allow you to do insertions with predefined text snippets and more. Hyde Transforms support placeholders and filters to allow you to dynamically build powerful extensions into the Teddy Hyde editor.
+Hyde Transforms allow you to customize the Teddy Hyde editor. Technically a Hyde Transform is a bit of JSON which the Teddy Hyde editor loads and then adds menu items which allow you to do insertions with predefined text snippets and more. Hyde Transforms support placeholders and filters to allow you to build powerful dynamic extensions into the Teddy Hyde editor.
 
 Use these rake tasks (available from the [Rakefile](https://github.com/xrd/blog.teddyhyde.com/blob/gh-pages/Rakefile) in a [Teddy Hyde created Jekyll blog](https://teddyhyde.com)) to learn more.
 
