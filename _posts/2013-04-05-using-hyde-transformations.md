@@ -20,7 +20,7 @@ To get to transforms, load a file and then click on the "Hyde Transform..." menu
 
 You'll see all valid transforms listed there.
 
-In this [example](https://github.com/xrd/blog.teddyhyde.com/blob/gh-pages/_hyde/transforms.json) after clicking on "Hyde Transform..." I see two transforms, "Colored Image" (which prompts me to pick an image and then prompts for a border color to apply to that image) and "Angular FooCtrl" (which just inserts some HTML that could be used to apply an [AngularJS](http://angularjs.org) controller)
+In this [example](https://github.com/xrd/blog.teddyhyde.com/blob/gh-pages/_hyde/transforms.json), after clicking on "Hyde Transform..." I see two transforms, "Colored Image" (which prompts me to pick an image and then prompts for a border color to apply to that image) and "Angular FooCtrl" (which just inserts some HTML that could be used to apply an [AngularJS](http://angularjs.org) controller)
 
 ![/assets/images/2013-05-08-06-53-26-image-resized.png](/assets/images/2013-05-08-06-53-26-image-resized.png)
 
