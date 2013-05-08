@@ -26,8 +26,10 @@ In this [example](https://github.com/xrd/blog.teddyhyde.com/blob/gh-pages/_hyde/
 
 The simplest transform is just an insert. When you choose this one in the menu, it will insert the text in the code attribute of the JSON. Here is an example.
 
+{% assign insert = "{{myVar}}" %}
+
         {
-            "code": "<div ng-controller=\"FooCtrl\"> &#123; #123; myVar &#123; &#123; <div>\n", 
+            "code": "<div ng-controller=\"FooCtrl\">{{insert}}<div>\n", 
             "name": "Angular FooCtrl", 
             "prompt": null, 
             "type": "insert", 
@@ -37,23 +39,30 @@ The simplest transform is just an insert. When you choose this one in the menu, 
 
 You can prompt the user for information. Teddy Hyde will prompt the user and then replace the text with the placeholder &#123;&#123;PROMPT&#125;&#125;.
 
-    "code": "You answered &#123;&#123;PROMPT&#125;&#125; (the correct answer is 44)",
+{% assign prompt = "{{PROMPT}}" %>
+
+    "code": "You answered {{prompt}} (the correct answer is 44)",
     "prompt": "At what age did Robert Louis Stevenson die?"
 
 You can insert text as we saw above. You can also choose an image and then insert code with the image URI. For example:
 
-    "code": "<img src="&#123;&#123;IMAGE&#125;&#125;",
+{% assign image = "{{IMAGE}}" %>
+
+    "code": "<img src="{{image}}",
     "type": "image", 
 
 You can run filters on the results, for example, when you want to escape HTML or URL encode it. Valid filters are "html", "url", "escdblquotes".
 
-    "code": "<img src="http://imagegeneratorserver.com/?url=&#123;&#123;IMAGE|url&#125;&#125;/>",
+{% assign image_escaped = "{{IMAGE|url}}" %>
+
+    "code": "<img src="http://imagegeneratorserver.com/?url={{image_escaped}}/>",
     "type": "image", 
 
 You can even run a regex search and replace. For example, imagine you want to swap png extensions for jpg.
 
-    "code": "<img src="&#123;&#123;IMAGE|/\.png$/\.jpg/&#125;&#125;"/>",
+{% assign regex = "{{IMAGE|/\.png/\.jpg/}}" %}
 
+    "code": "<img src="{{regex}}"/>",
 
 ### Caveats ###
 
