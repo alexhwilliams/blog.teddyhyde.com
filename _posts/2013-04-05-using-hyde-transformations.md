@@ -38,7 +38,7 @@ You can prompt the user for information. Teddy Hyde will prompt the user and the
 &#125; &#125;.
 
     "code": "You answered &#123; &#123; PROMPT
-&#125; &#125; (the correct answer is",
+&#125; &#125; (the correct answer is 44)",
     "prompt": "At what age did Robert Louis Stevenson die?"
 
 You can insert text as we saw above. You can also choose an image and then insert code with the image URI. For example:
