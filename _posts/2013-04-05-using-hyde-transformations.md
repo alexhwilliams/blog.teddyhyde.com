@@ -44,6 +44,8 @@ You can prompt the user for information. Teddy Hyde will prompt the user and the
     "code": "You answered {{prompt}} (the correct answer is 44)",
     "prompt": "At what age did Robert Louis Stevenson die?"
 
+![/assets/images/2013-05-08-10-28-16-image-resized.png](/assets/images/2013-05-08-10-28-16-image-resized.png)
+
 You can insert text as we saw above. You can also choose an image and then insert code with the image URI. For example:
 
 {% assign image = "{{IMAGE}}" %}
