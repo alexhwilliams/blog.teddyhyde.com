@@ -33,21 +33,24 @@ The simplest transform is just an insert. When you choose this one in the menu, 
 You can prompt the user for information. Teddy Hyde will prompt the user and then replace the text with the placeholder &#123; &#123; PROMPT
 &#125; &#125;.
 
-    "code": "You answered {{PROMPT}}",
+    "code": "You answered &#123; &#123; PROMPT
+&#125; &#125; ",
 
 You can insert text as we saw above. You can also choose an image and then insert code with the image URI. For example:
 
-    "code": "<img src="{{IMAGE}}/>",
+    "code": "<img src="/ &#123; &#123; IMAGE
+&#125; &#125; ",
     "type": "image", 
 
 You can run filters on the results, for example, when you want to escape HTML or URL encode it. Valid filters are "html", "url", "escdblquotes".
 
-    "code": "<img src="http://imagegeneratorserver.com/?url={{IMAGE|url}}/>",
+    "code": "<img src="http://imagegeneratorserver.com/?url=| &#123; &#123; IMAGE|url
+&#125; &#125; />",
     "type": "image", 
 
 You can even run a regex search and replace. For example, imagine you want to swap png extensions for jpg.
 
-    "code": "<img src="{{IMAGE|/\.png$/\.jpg/}}/>",
+    "code": "<img src="&#123; &#123;PROMPT|/\.png$/\.jpg/&#125;&#125;"/>",
 
 
 ## The future of Hyde Transforms ##
@@ -71,7 +74,7 @@ Android has awesome intents. Add the ability to recognize a shared URL coming in
     source: "share",
     type: "url",
     code: "[{{PROMPT}}]({{URL}})
-    prompt: true
+    prompt: "Give this link a caption"
 
 This might allow you to share a URL into Teddy Hyde from another application and then insert it as a link into your markdown text.
 
