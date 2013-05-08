@@ -6,7 +6,7 @@ tags : []
 published: true
 ---
 
-Hyde Transforms allow you to customize your editor. Technically a Hyde transform is a bit of JSON which the Teddy Hyde editor loads and then adds menu items which allow you to do special insertions and more.
+Hyde Transforms allow you to customize the Teddy Hyde editor. Technically a Hyde transform is a bit of JSON which the Teddy Hyde editor loads and then adds menu items which allow you to do special insertions and more.
 
 Use these rake tasks to learn more.
 
@@ -22,7 +22,7 @@ You'll see all valid transforms listed there.
 The simplest transform is just an insert. When you choose this one in the menu, it will insert the text in the code attribute of the JSON. Here is an example.
 
         {
-            "code": "<div ng-controller=\"FooCtrl\">{{myVar}}</div>\n", 
+            "code": "<div ng-controller=\"FooCtrl\"> &#123; #123; myVar &#123; &#123; <div>\n", 
             "name": "Angular FooCtrl", 
             "prompt": null, 
             "type": "insert", 
@@ -30,7 +30,8 @@ The simplest transform is just an insert. When you choose this one in the menu, 
         }
     ]
 
-You can prompt the user for information. Teddy Hyde will prompt the user and then replace the text with the placeholder {{PROMPT}}.
+You can prompt the user for information. Teddy Hyde will prompt the user and then replace the text with the placeholder &#123; &#123; PROMPT
+&#125; &#125;.
 
     "code": "You answered {{PROMPT}}",
 
