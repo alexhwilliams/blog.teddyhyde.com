@@ -57,6 +57,14 @@ You can even run a regex search and replace. For example, imagine you want to sw
     "code": "<img src="&#123;&#123;PROMPT|/\.png$/\.jpg/&#125;&#125;"/>",
 
 
+### Caveats ###
+
+Filters are case sensitive. html is different than HTML.
+
+Spacing is significant. Beware of doing &#123; &#123; PROMPT
+&#125; &#125; as opposed to 
+&#123;&#123;PROMPT&#125;&#125;
+
 ## The future of Hyde Transforms ##
 
 These are all just ideas right now. So, don't rely on this code!
