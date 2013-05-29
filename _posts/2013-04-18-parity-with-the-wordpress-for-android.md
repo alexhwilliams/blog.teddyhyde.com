@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Parity with Wordpress for Android
 category: 
 tagline: 
