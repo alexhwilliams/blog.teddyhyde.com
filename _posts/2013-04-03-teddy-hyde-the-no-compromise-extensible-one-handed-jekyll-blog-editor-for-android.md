@@ -11,9 +11,13 @@ published: true
 
 Did you know Teddy was a nickname for Edward that gained popularity in the Victorian era, right when "The curious case of Dr. Jekyll and Mr. Hyde" was set? Did you know Mr. Hyde's first name in the story was Edward? Hyde and Jekyll are perfect complements, both in the story and when blogging.
 
+![/assets/images/2013-05-08-06-00-36-image-resized.png](/assets/images/2013-05-08-06-00-36-image-resized.png)
+
 ## No compromises?
 
 I wanted to make a first class editor for my phone. Many have accused the iPad of being only a consumption device. I think I agree. But, I think we can make cool creation tools for handheld devices.
+
+Nowadays I actually prefer editing on my phone with Teddy Hyde. I can blog using speech recognition, and quick swipe to preview. And, publishing is as simple as clicking "save file" rather than typing multiple git commands add/commit/push things up. It feels more organic to blog using Teddy Hyde than from my laptop.
 
 ## One handed?
 
@@ -28,3 +32,7 @@ More about [Hyde Transforms](/2013/04/05/using-hyde-transformations/).
 ## More than just a blog editor. A general purpose Github editor.
 
 Teddy Hyde is optimized for Jekyll blogging. But, you can use it to edit any text based file stored in your github repositories.
+
+## No iOS?
+
+Teddy Hyde is not yet available for iOS. And, it is open source, available on GitHub. [Fork me](http://github.com/xrd/TeddyHyde) and let's build the best mobile editor for Jekyll and GitHub.
