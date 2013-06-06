@@ -16,13 +16,13 @@ Use these rake tasks (available from the [Rakefile](https://github.com/xrd/blog.
 
 To get to transforms, load a file and then click on the "Hyde Transform..." menu item. 
 
-![/assets/images/2013-04-05-08-48-58-image-resized.png](/assets/images/2013-04-05-08-48-58-image-resized.png)
+![/assets/images/2013-04-05-08-48-58-image.png](/assets/images/2013-04-05-08-48-58-image.png)
 
 You'll see all valid transforms listed there.
 
 In this [example](https://github.com/xrd/blog.teddyhyde.com/blob/gh-pages/_hyde/transforms.json), after clicking on "Hyde Transform..." I see two transforms, "Colored Image" (which prompts me to pick an image and then prompts for a border color to apply to that image) and "Angular FooCtrl" (which just inserts some HTML that could be used to apply an [AngularJS](http://angularjs.org) controller)
 
-![/assets/images/2013-05-08-06-53-26-image-resized.png](/assets/images/2013-05-08-06-53-26-image-resized.png)
+![/assets/images/2013-05-08-06-53-26-image.png](/assets/images/2013-05-08-06-53-26-image.png)
 
 The simplest transform is just an insert. When you choose this one in the menu, it will insert the text in the code attribute of the JSON. Here is an example.
 
@@ -44,7 +44,7 @@ You can prompt the user for information. Teddy Hyde will prompt the user and the
     "code": "You answered {{prompt}} (the correct answer is 44)",
     "prompt": "At what age did Robert Louis Stevenson die?"
 
-![/assets/images/2013-05-08-10-28-16-image-resized.png](/assets/images/2013-05-08-10-28-16-image-resized.png)
+![/assets/images/2013-05-08-10-28-16-image.png](/assets/images/2013-05-08-10-28-16-image.png)
 
 You can insert text as we saw above. You can also choose an image and then insert code with the image URI. For example:
 
