@@ -4,7 +4,7 @@ category:
 title: "Making being on the web about being a creative being again"
 tagline: 
 tags : [] 
-published: false
+published: true
 ---
 
 This is from the neocities blog. I love what is said here.
