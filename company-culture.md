@@ -11,7 +11,7 @@ Great companies have notable company cultures: Zappos. Google. Even companies wh
 
 We are a communication company first and foremost. Communication is widely misunderstood. When you ask most people whether they are good communicators, they will almost always say yes. And they will then attempt to convince you that they can relay facts better than most people. But relaying facts never moved mountains or people. We assert that people (subconsciously) are designed to debate facts and so relaying information often takes the opposite effect. The root of the word communication is "commune." Communication is all about connection, and without deliberate practice, ironically, you are rarely a good communicator naturally. Connecting is a different skill than relating facts. It takes work in the spiritual realm more than the intellectual realm.
 
-## You cannot have culture without the cult
+## You cannot have the word culture without the word cult
 
 If we are not constantly reinforcing and developing our culture deliberately, then we are developing our culture accidentally. If we are building things blind to our culture, then we are building our culture accidentally. So, when creating anything, it must be within a larger discussion of "what are we building with this?"
 
