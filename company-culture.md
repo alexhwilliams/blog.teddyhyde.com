@@ -23,7 +23,7 @@ And, like a cult, if we are not laughed at for what we practice then we are defa
 
 What are the things that make communication difficult within modern societies? The communication revolution has had the opposite effect on most people's productivity: more email makes it harder to get things done. Delegating is not sending a disorganized email. This layers more junk onto people.
 
-How do we do this within a technical company? Testing is vital: new people can start hacking without disturbing the flow of others. Adding a new engineer does not make all the other engineers learn a new coding style, a new documentation style. You get trust for free. Read more about testing in our testing document.
+How do we do communicate effectively within a technical company? Testing is vital: new people can start hacking without disturbing the flow of others. Adding a new engineer does not make all the other engineers learn a new coding style, a new documentation style. You get trust for free. Read more about testing in our testing document. Testing allows us to do the impossible as described in "The Mythical Man Month" by adding new people without impact to existing workers.
 
 Go into any bathroom at Google and you will see testing strategies in the uniral walls. You should be thinking tests even when peeing. As you expunge physically you will be clearing and cleansing your thought processes as well.
 
@@ -47,3 +47,6 @@ This is not a place for people frightened of engineering. Being an engineer is m
 
 all of these things are cultural traits not intellectual traits. Emotional stabilities rather than intellectual groundings.
 
+## Everyone is a newbie
+
+How do we bring new people on into a complex system? By starting from the assumption that everyone is completely new in the moment. This takes practice as you as the speaker need to give up all your notions about your listeners. And it takes uncommon honesty from the listener. And it takes building things that are self explaining and easy to ingest. New companies require cultures which bring in new people easily.
