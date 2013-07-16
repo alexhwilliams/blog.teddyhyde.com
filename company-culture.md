@@ -50,3 +50,7 @@ all of these things are cultural traits not intellectual traits. Emotional stabi
 ## Everyone is a newbie
 
 How do we bring new people on into a complex system? By starting from the assumption that everyone is completely new in the moment. This takes practice as you as the speaker need to give up all your notions about your listeners. And it takes uncommon honesty from the listener. And it takes building things that are self explaining and easy to ingest. New companies require cultures which bring in new people easily.
+
+## Outside projects
+
+Everyone is encouraged to create side businesses, provided they are using the same tools as our customers. Blogging for profit is encouraged. If you build something that we don't develop and use it in our systems, you can open source it, donate it in house, or quit and do that full time without malice and the financial support of the company.
