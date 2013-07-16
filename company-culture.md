@@ -25,13 +25,17 @@ What are the things that make communication difficult within modern societies? T
 
 How do we do this within a technical company? Testing is vital: new people can start hacking without disturbing the flow of others. Adding a new engineer does not make all the other engineers learn a new coding style, a new documentation style. You get trust for free. Read more about testing in our testing document.
 
-Go into any bathroom at Google and you will see testing strategies in the uniral walls. You should be thinking tests even when peeing. 
+Go into any bathroom at Google and you will see testing strategies in the uniral walls. You should be thinking tests even when peeing. As you expunge physically you will be clearing and cleansing your thought processes as well.
 
-## Measure everything
+## Know thyself.
 
 We cannot develop a culture without truly knowing ourselves. We cannot truly know ourselves without being objective about our habits and practices. There many ways to learn about ourselves: writing (blogging), a foundation of our company, is an easy and hard way to learn and reflect.
 
-Once we have
+## Measure everything
+
+Once we have objective measurement, we can effectively analyze and measure ourselves. Companies in the new world will succeed or die by their ability to measure and adapt. 
+
+Measurement leads to the direction of adaptation. Tests lead to the ability to adapt.
 
 ## 
 
