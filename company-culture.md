@@ -37,5 +37,13 @@ Once we have objective measurement, we can effectively analyze and measure ourse
 
 Measurement leads to the direction of adaptation. Tests lead to the ability to adapt.
 
-## 
+## Everyone is an engineer
+
+This is not a place for people frightened of engineering. Being an engineer is more of a declaration than an ability. An engineer is:
+
+* someone willing to constantly learn new skills
+* someone willing to say they don't know and figure out how to do it.
+* someone who says it will take this much time for me to do it rather than it cannot be done
+
+all of these things are cultural traits not intellectual traits. Emotional stabilities rather than intellectual groundings.
 
