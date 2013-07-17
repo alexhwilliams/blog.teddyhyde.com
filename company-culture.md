@@ -53,4 +53,8 @@ How do we bring new people on into a complex system? By starting from the assump
 
 ## Outside projects
 
-Everyone is encouraged to create side businesses, provided they are using the same tools as our customers. Blogging for profit is encouraged. If you build something that we don't develop and use it in our systems, you can open source it, donate it in house, or quit and do that full time without malice and the financial support of the company.
+Everyone is encouraged to create side businesses, provided they are using the same public tools as our customers. Blogging for profit is encouraged. If you build something that we don't develop and use it in our systems, you can open source it, donate it in house, or quit and do that full time without malice and the financial support of the company.
+
+## Everything is done as a team
+
+We never look for blame. We search for why our current processes inhibit team success.
