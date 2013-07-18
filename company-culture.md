@@ -58,3 +58,7 @@ Everyone is encouraged to create side businesses, provided they are using the sa
 ## Everything is done as a team
 
 We never look for blame. We search for why our current processes inhibit team success.
+
+## meetings are distraction free
+
+often walking meetings. without computers or cell phone.  collaborative sessions can be in front of a computer.
