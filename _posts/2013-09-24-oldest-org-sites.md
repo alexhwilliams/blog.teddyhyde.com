@@ -24,4 +24,5 @@ published: false
     13	software.org	10/03/87	n/a
     Oldest .EDU domains:
 
+from http://m.tgdaily.com/trendwatch-features/41643-updated-the-100-oldest-registered-dot-com-org-net-edu-domains
 
