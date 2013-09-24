@@ -13,4 +13,8 @@ by not being in the office, are workers more inclined to go against their manage
 
 how do remote workers negotiate with their wives? and their babies? having no office makes setting hours a challenge.
 
+rise of brogrammers?
+
+women represented at github. the new frontier?
+
 
