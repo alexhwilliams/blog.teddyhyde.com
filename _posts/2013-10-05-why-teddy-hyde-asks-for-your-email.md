@@ -7,7 +7,7 @@ tags : []
 published: false
 ---
 
-*TL;DR* : **We promise to never spam you or share your email address.**
+*TL;DR* : **We promise to never spam you or share your email address. We collect your email for a few technical reasons and pledge never to send you email without getting your explicit permission first. And, we are building**
 
 The other day I was working with Alex Williams and he was trying out my new service Teddy Hyde for Jekyll blogging. He tweeted that he was trying it out and several people have retweeted with feedback on Twitter regarding using it.
 
