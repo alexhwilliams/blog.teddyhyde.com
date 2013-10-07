@@ -9,6 +9,8 @@ published: false
 
 Now that all the excitement about Miley Cyrus twerking has died down, the good people of modern civilization have rightly returned their focus to the debate over oAuth and passwords.
 
+![/assets/images/2013-10-07-07-55-18-image-resized.png](/assets/images/2013-10-07-07-55-18-image-resized.png)
+
 Wait, you say, what is oAuth? You don't know?
 
 Fortunately, you don't need to know. What you do need to know is that Teddy Hyde now uses it instead of asking for your username and password. This makes using Teddy Hyde much safer for you and makes it impossible for us to accidentally compromise losing your credentials on Github.
