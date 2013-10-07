@@ -11,7 +11,7 @@ published: false
 
 The other day I was working with Alex Williams from Tech Crunch and he was trying out my new service Teddy Hyde for Jekyll blogging. He tweeted about his experience and several people have retweeted with feedback on Twitter regarding using it.
 
-I think I finally my understand why twitter is so interesting to so many people, and even more so, companies. Previously, I always thought that Twitter was something to look at, get distracted by the multiple conversations and lose several hours. Distraction might be my biggest problem these days. But once before people started tweeting about the service and I started responding I got to see that perhaps twitter is like a living, conversational documentation system. I see value in that.
+I think I finally understand why twitter is so interesting to so many people, and even more so, companies. Previously, I always thought that Twitter was something to look at, get distracted by the multiple conversations and lose several hours. Distraction might be my biggest problem these days. But once people started tweeting about the service and I started responding I got to see that perhaps twitter is like a living, conversational documentation system. I see value in that.
 
 One of the questions that came up was: why do you ask for an email address? The answer is technical in nature, but the implications are not technical for this user.
 
