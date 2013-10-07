@@ -17,7 +17,9 @@ No comprises editing of your Jekyll blog from your Android device
 <ul class="posts">
 
 {% capture sidebar %}{% include blog.md %}{% endcapture %}
+<div style="text-align: left">
 {{ sidebar | markdownify }}
+</div>
 
 </ul>
 </div>
@@ -25,13 +27,17 @@ No comprises editing of your Jekyll blog from your Android device
 <div class="span4">
 
 {% capture sidebar %}{% include download.md %}{% endcapture %}
+<div style="text-align: center">
 {{ sidebar | markdownify }}
+</div>
 
 </div>
 <div class="span4">
 
 {% capture sidebar %}{% include migrate.md %}{% endcapture %}
+<div style="text-align: right">
 {{ sidebar | markdownify }}
+</div>
 
 </div>
 </div>
