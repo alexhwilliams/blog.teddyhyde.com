@@ -13,9 +13,9 @@ Now that all the excitement about Miley Cyrus twerking has died down, the good p
 
 Wait, you say, what is oAuth? You don't know?
 
-Fortunately, you don't need to know. What you do need to know is that Teddy Hyde now uses it instead of asking for your username and password. This makes using Teddy Hyde much safer for you and makes it impossible for us to accidentally compromise losing your credentials on Github.
+Fortunately, you don't need to know. What you do need to know is that Teddy Hyde now uses it instead of asking for your username and password. This makes using Teddy Hyde much safer for you and makes it impossible for us to accidentally compromise or lose your credentials on Github.
 
-Previously, the app asked for your username and password. This was bad. Why? Well, you had to trust that a closed source piece of software would not send this off to a decrepit Russian bunker where they would login to Github using your credentials and upload visual basic files, ruining your reputation on Reddit. You had to trust that we would not be hacked and give out your password that way. Since the only thing you only know for sure about Teddy Hyde is that we have a horrible sense of humor, asking for this level of trust from our users never made sense.
+Previously, the app asked for your username and password. This was bad. Why? Well, you had to trust that a closed source piece of software would not send this off to a decrepit Russian bunker where they would login to Github using your credentials and upload visual basic files, ruining your reputation on Reddit. You had to trust that we would not be hacked and lose your password that way. Since the only thing you know for sure about Teddy Hyde is that we have a horrible sense of humor, asking for this level of trust from our users never made sense.
 
 With oAuth, you actually login to Github and then after Github has verified your identity, they send an identity token to Teddy Hyde. That means Teddy Hyde never sees your password. And, if you go to Github you can revoke that identity token without Teddy Hyde preventing it or even knowing.
 
