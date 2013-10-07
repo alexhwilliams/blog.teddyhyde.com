@@ -7,9 +7,9 @@ tags : []
 published: false
 ---
 
-*TL;DR* : **We promise to never spam you or share your email address. We collect your email for a few technical reasons and pledge never to send you email without getting your explicit permission first. With one exception (read below for details). And, we are building a way to remove the email from the system.**
+*TL;DR* : **We promise to never spam you or share your email address. We collect your email for a few technical reasons and pledge never to send you email without getting your explicit permission first. With one small, fair exception once (read below for details). And, we are building a way to remove the email from the system.**
 
-The other day I was working with Alex Williams from Tech Crunch and he was trying out my new service Teddy Hyde for Jekyll blogging. He tweeted that he was trying it out and several people have retweeted with feedback on Twitter regarding using it.
+The other day I was working with Alex Williams from Tech Crunch and he was trying out my new service Teddy Hyde for Jekyll blogging. He tweeted about his experience and several people have retweeted with feedback on Twitter regarding using it.
 
 I think I finally my understand why twitter is so interesting to so many people, and even more so, companies. Previously, I always thought that Twitter was something to look at, get distracted by the multiple conversations and lose several hours. Distraction might be my biggest problem these days. But once before people started tweeting about the service and I started responding I got to see that perhaps twitter is like a living, conversational documentation system. I see value in that.
 
