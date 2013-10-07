@@ -4,7 +4,7 @@ category:
 title: "Why Teddy Hyde asks for your email"
 tagline: 
 tags : [] 
-published: false
+published: true
 ---
 
 *TL;DR* : **We promise to never spam you or share your email address. We collect your email for a few technical reasons and pledge never to send you email without getting your explicit permission first. With one small, fair exception once (read below for details). And, we are building a way to remove the email from the system.**
