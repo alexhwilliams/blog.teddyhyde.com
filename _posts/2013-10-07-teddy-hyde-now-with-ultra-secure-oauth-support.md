@@ -4,7 +4,7 @@ category:
 title: "Teddy Hyde, now with ultra secure oAuth support"
 tagline: 
 tags : [] 
-published: false
+published: true
 ---
 
 Now that all the excitement about Miley Cyrus twerking has died down, the good people of modern civilization have rightly returned their focus to the debate over oAuth and passwords.
