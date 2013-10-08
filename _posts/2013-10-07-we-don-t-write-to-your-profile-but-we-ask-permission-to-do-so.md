@@ -13,7 +13,7 @@ Someone recently asked why Teddy Hyde requests access to write to the user profi
 
 This is what you see when you login. Teddy Hyde asking for permission to write to your profile.
 
-Turns out, I was wrong. We don't write to your profile. But, we have to ask for that permission.
+Turns out, I was wrong, it is not a configuration error on my part. We don't write to your profile. But, we have to ask for that permission.
 
 Why?
 
