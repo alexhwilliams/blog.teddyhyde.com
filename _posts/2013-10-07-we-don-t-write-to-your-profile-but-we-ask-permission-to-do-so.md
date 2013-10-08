@@ -4,7 +4,7 @@ category:
 title: "We don't write to your profile. But, we ask permission to do so"
 tagline: 
 tags : [] 
-published: false
+published: true
 ---
 
 Someone recently asked why Teddy Hyde requests access to write to the user profile on Github when logging in. Initially I thought this was a simple mistake in configuration of the application, because we write no data back into Github. 
