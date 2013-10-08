@@ -17,7 +17,7 @@ Turns out, I was wrong, it is not a configuration error on my part. We don't wri
 
 Why?
 
-The Github API allows access to your public SSH keys. We import those so that once we create a blog you can just clone the files and don't have to go through an onerous process of finding and uploading your SSH keys.
+The Github API allows access to your public SSH keys. We import those so that once we create a blog you can just clone the files and don't have to go through an onerous process of finding and uploading your SSH keys into Teddy Hyde since you probably use the same set of keys anyway.
 
 We only read these keys. We don't modify them or add any new ones. 
 
