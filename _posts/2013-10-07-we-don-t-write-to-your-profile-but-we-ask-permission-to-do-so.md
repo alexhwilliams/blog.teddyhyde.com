@@ -19,7 +19,7 @@ Why?
 
 The Github API allows access to your public SSH keys. We import those so that once we create a blog you can just clone the files and don't have to go through an onerous process of finding and uploading your SSH keys into Teddy Hyde since you probably use the same set of keys anyway.
 
-We only read these keys. We don't modify them or add any new ones. 
+We only read these keys. We don't modify them or add any new ones. (And remember, these are public keys and are safe for you to share with other services like Teddy Hyde).
 
 Unfortunately, the Github API requires that you ask for *write* access to *read* these keys. Strange and this seems like an oversight by Github. I would expect that you could get read only access to them, but this is not the case.
 
