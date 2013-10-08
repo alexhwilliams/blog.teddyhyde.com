@@ -24,3 +24,5 @@ We only read these keys. We don't modify them or add any new ones.
 Unfortunately, the Github API requires that you ask for *write* access to *read* these keys. Strange and this seems like an oversight by Github. I would expect that you could get read only access to them, but this is not the case.
 
 So, for now, we ask for permission to write to your profile even though we don't change anything at all. Unfortunate but true.
+
+It is possible to modify the permissions after they have been granted. I am hopefully that there is a way to downgrade the permissions after the SSH keys have been imported. Investigating this with high priority now...
