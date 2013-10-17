@@ -380,7 +380,7 @@ END
 
       puts "Remember you can use filters like 'html', 'url', 'escdblquotes',\n" +
         "or even a replacement regex '/foo/bar/' to process the result.\n" +
-        "These filters cannot be chained." if prompt or image
+        "These filters cannot be chained." if prompt or type.eql?( "image" )
 
       puts "Enter the code you want to insert. It can be multiple lines. Finish input with a single . character"
       code = ""

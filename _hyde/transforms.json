@@ -1,16 +1,10 @@
 [
-    {
-        "code": "<img src=\"{{IMAGE}}\" style=\"border-color: {{PROMPT}}\">\n", 
-        "name": "Colored image", 
-        "prompt": "Enter the color you want to use", 
-        "type": "image", 
-        "version": 1
-    }, 
-    {
-        "code": "<div ng-controller=\"FooCtrl\">{{myVar}}</div>\n", 
-        "name": "Angular FooCtrl", 
-        "prompt": null, 
-        "type": "insert", 
-        "version": 1
-    }
+  {
+    "prompt": null,
+    "code": "<a href=\"https://play.google.com/store/apps/details?id=com.EditorHyde.app\">Download Teddy Hyde from the Android Play store</a>\n",
+    "type": "insert",
+    "version": 1,
+    "name": "Teddy Hyde Download"
+  }
+]
 ]
