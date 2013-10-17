@@ -3,7 +3,7 @@ layout: post
 category: 
 title: "Teddy Hyde, now with Crashlytics"
 tagline: 
-tags : [ "crashlytics" ] 
+tags : [ ] 
 published: true
 ---
 
