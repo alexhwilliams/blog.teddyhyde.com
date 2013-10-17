@@ -35,3 +35,5 @@ In our case we needed to add the TeddyHyde/libs directory which is where gradle 
 
 <a href="https://play.google.com/store/apps/details?id=com.EditorHyde.app">Download Teddy Hyde from the Android Play store</a>
 
+
+
