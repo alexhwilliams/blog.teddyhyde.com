@@ -7,7 +7,7 @@ tags : []
 published: true
 ---
 
-Crashlytics recently added support for Android Studio, so we attempted to install it into Teddy Hyde. It works great, providing us with detailed and beautiful crash reporting. Hopefully you as a user of Teddy Hyde will never need to know anything other than this helps us produce software with fewer bugs, but we love it.
+[Crashlytics](http://try.crashlytics.com/) recently added support for Android Studio, so we attempted to install it into Teddy Hyde. It works great, providing us with detailed and beautiful crash reporting. Hopefully you as a user of Teddy Hyde will never need to know anything other than this helps us produce software with fewer bugs, but we love it.
 
 If you are considering using Crashlytics with your Android app, we had one issue when installing it. Teddy Hyde was built using Eclipse originally and then we added a gradle build file on top of this project. Our build paths are not what gradle typically expects and this tripped up the gradle build. To fix it, we simply added the correct path to our gradle build file.
 
@@ -32,3 +32,6 @@ Then try adding a line like this to your build.gradle file.
     }
 
 In our case we needed to add the TeddyHyde/libs directory which is where gradle typically expects the root of the build files to exist. Once we did this, everything worked perfectly and we started seeing crash reports in Crashlytics. Awesome!
+
+<a href="https://play.google.com/store/apps/details?id=com.EditorHyde.app">Download Teddy Hyde from the Android Play store</a>
+
