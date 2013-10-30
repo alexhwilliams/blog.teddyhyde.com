@@ -16,6 +16,7 @@ If you have made major modifications to your blog then these commands will proba
     git merge --no-commit teddyhyde/master
     git reset HEAD _config.yml 
     git checkout -- _config.yml
+    git add CNAME
     git commit -m "Merged updates"
 
 
