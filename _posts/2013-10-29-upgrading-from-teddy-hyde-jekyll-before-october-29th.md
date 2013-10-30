@@ -4,7 +4,7 @@ category:
 title: "Upgrading from Teddy Hyde Jekyll before October 29th"
 tagline: 
 tags : [] 
-published: false
+published: true
 ---
 If you used Teddy Hyde to generate a blog before October 29th, 2013, you can use the following commands to grab the latest CSS and structure. 
 
