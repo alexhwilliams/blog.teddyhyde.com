@@ -10,19 +10,18 @@ don't break other working features. Naturally I want to automate testing as much
 
 Android is well designed and very test friendly. Thinking about components as "activities" and then parameterizing them
 with data (called "bundles" supplied via a launching "intent") means you are designing components which 
-can easily be tested inside a container. Yet, the recent changes to the tooling, namely Android Studio and 
+can easily be tested inside a container. Yet, the recent changes to the tooling environments, namely Android Studio and 
 gradle, have relegated the implementation and integration of testing to the bottom of the to-do list. It simply
 is not easy or obvious about how to add tests, especially UI tests via Robotium. 
 
 I recently discovered Calabash, and it blows my mind. Here is a easy to use android (and iOS) testing harness
 that works using Cucumber feature scripts. It is simple to get started with and has immense power because
-it is a pure Ruby testing. I feel this makes it much better than writing things in Java. Java is a great language
-for high performance, but a poor language for writing test scripts, where terseness and simplicity trump
+it is a pure Ruby testing DSL. Ruby makes testing much easier than writing in Java. Java is a great language
+for high performance applications, but a poor language for writing test scripts, where terseness and simplicity trump
 execution speed. Calabash succeeds because it is simple and offers the full expression that comes from ruby and
 all the available ruby libraries.
 
-Calabash was developed by LessPainful, recently acquired by Xamarin. They have a great user group. And, I did not
-feel that there were good introductions to people new to calabash, especially those new to Cucumber testing. I am
+Calabash was developed by LessPainful, recently acquired by Xamarin. They have a great user group on Google. And, I did not feel that there were good introductions to people new to calabash, especially those new to Cucumber testing. I am
 embarassed as a rails developer to say I never used Cucumber (rspec has always been my cup of tea). So, this post 
 attempts to provide a gentle introduction to calabash, cucumber and testing the UI of your Android applications. Teddy
 Hyde uses oAuth for logging into your GitHub account, so this is a real world example of mixing vanilla UI components
