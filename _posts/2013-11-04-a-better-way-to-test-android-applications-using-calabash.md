@@ -4,9 +4,9 @@ of everything offered by this little Android editor for Jekyll blogs: Markdown a
 a swipe, oAuth login and 2-factor authentication support for the highest level of security with 
 your GitHub account, image upload and resizing, editor extension using "Hyde Transforms." And, making sure 
 all the features work after new features are introduced becomes a QA problem; it simply is not easy to make sure new features
-don't break other working features.
+don't break other working features. Naturally I want to automate testing as much as possible.
 
-Android is well designed to be tested. Thinking about components as "activities" and then parameterizing them
+Android is well designed and very test friendly. Thinking about components as "activities" and then parameterizing them
 with data (called "bundles" supplied via a launching "intent") means you are designing components which 
 can easily be tested inside a container. Yet, the recent changes to the tooling, namely Android Studio and 
 gradle, have relegated the implementation and integration of testing to the bottom of the to-do list. It simply
