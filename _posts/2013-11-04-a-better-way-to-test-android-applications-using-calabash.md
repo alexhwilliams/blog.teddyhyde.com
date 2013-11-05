@@ -1,17 +1,9 @@
----
-layout: post
-title: "A better way to test Android applications using Calabash"
-description: ""
-category: 
-tags: []
-published: false
----
 
 As Teddy Hyde has grown over the past ten months, the internal complexity has grown as well. I'm proud
 of the all the capabilities of this little Android editor for Jekyll blogs: Markdown and Asciidoc preview with just
-a swipe, oAuth login and support for 2-factor authentication for the highest level of security for 
+a swipe, oAuth login and 2-factor authentication support for the highest level of security with 
 your GitHub account, image upload and resizing, editor extension using "Hyde Transforms." And, making sure 
-all the features work becomes a testability problem; it simply is not easy to make sure new features
+all the features work after new features are introduced becomes a testability problem; it simply is not easy to make sure new features
 don't break other working features.
 
 Android is well designed to be tested. Thinking about components as "activities" and then parameterizing them
