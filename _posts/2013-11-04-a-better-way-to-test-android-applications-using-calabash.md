@@ -48,9 +48,9 @@ What this means, is there is a feature called "Add file to repository" with a sc
 that has one step defined, "given I start the login process." And, then we have defined that step as `touch "button"`. 
 `touch "button"` is calabash code to touch a button in your Android app.
 
-So, what's calabash? Calabash is a set of scripts which setup your Android app on a real device (or emulator) and then 
+So, what's calabash? Calabash is a set of scripts and an API which setup your Android app on a real device (or emulator) and then 
 run through the tests you've definied. Setting up on your device means installing the app, and installing a test runner
-based on Robotium which can handle clicks, scrolls, etc. Then, calabash takes your features and converts those to
+based on Robotium which can communicate clicks, scrolls, etc. Then, calabash takes your features and converts those to
 Robotium commands and runs your tests.
 
 Specifically, to run this feature, you would do this:
