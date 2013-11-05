@@ -69,6 +69,8 @@ This drops you into a shell and you can play with the app, querying for buttons,
 you have figured out the proper element, via the text or ID, you can then add it to the step definitions and 
 build out your test.
 
+The neat thing about console mode is it allows you to interact with the app normally by pressing and swiping, but also allows you to interact with the app via the calabash API. So, you can get to the place in the app you need to manually and then use the API to run automated commands you paste into your step definitions.
+
 When I installed calabash, if you are running Mavericks, you might need to update Xcode using this command `xcode-select --install`
 as per this link
 
