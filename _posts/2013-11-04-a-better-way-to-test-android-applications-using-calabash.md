@@ -1,6 +1,6 @@
 
 As Teddy Hyde has grown over the past ten months, the internal complexity has grown as well. I'm proud 
-of the all the capabilities of this little Android editor for Jekyll blogs: Markdown and Asciidoc preview with just
+of everything offered by this little Android editor for Jekyll blogs: Markdown and Asciidoc preview with just
 a swipe, oAuth login and 2-factor authentication support for the highest level of security with 
 your GitHub account, image upload and resizing, editor extension using "Hyde Transforms." And, making sure 
 all the features work after new features are introduced becomes a testability problem; it simply is not easy to make sure new features
