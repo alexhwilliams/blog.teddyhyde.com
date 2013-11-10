@@ -20,7 +20,7 @@ can easily be tested inside a container. Yet, the recent changes to the tooling 
 gradle, have relegated the implementation and integration of testing to the bottom of the to-do list. It simply
 is not easy or obvious right now to add tests, especially UI tests via Robotium. 
 
-I recently discovered Calabash, and it has changed my relationship to testing Android applications. Here is a easy to use android (and iOS) testing harness
+I recently discovered Calabash, and it has changed my relationship to testing Android applications. Here is an easy to use android (and iOS) testing harness
 that works using Cucumber feature scripts. It is simple to get started with and has immense power because
 it is a pure Ruby testing DSL. Ruby makes testing much easier than writing in Java. Java is a great language
 for high performance applications, but a poor language for writing test scripts, where terseness and simplicity trump
