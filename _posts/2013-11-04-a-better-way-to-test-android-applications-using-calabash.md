@@ -28,7 +28,7 @@ execution speed. Calabash succeeds because it is simple and offers the full expr
 all the available ruby libraries.
 
 Calabash was developed by LessPainful, recently acquired by Xamarin. They have a great user group on Google. And, I did not feel that there were good introductions to people new to calabash, especially those new to Cucumber testing. I am
-embarassed to say that as a long time rails developer to say I never used Cucumber (rspec has always been my cup of tea). So, this post 
+embarassed to say that as a long time rails developer I never had used Cucumber (rspec has always been my cup of tea). So, this post 
 attempts to provide a gentle introduction to calabash, cucumber and testing the UI of your Android applications. Teddy
 Hyde uses oAuth for logging into your GitHub account, so this is a real world example of mixing vanilla UI components
 like native buttons with UI components inside a WebView like you'll find if your application uses oAuth for authentication
