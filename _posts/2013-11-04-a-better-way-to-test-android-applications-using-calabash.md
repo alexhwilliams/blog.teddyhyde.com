@@ -66,13 +66,13 @@ If you have a directory called features which contains the features files descri
 in the step_definitions directory inside that directory.
 
 One thing missing for me in the documentation was "How do I figure out the step definitions without reading lots
-about the entire calabash API?" In this case, you want to run using the console command:
+about the entire calabash API?" In this case, you want to run calabash using the console command:
 
     calabash-android console ./build/apk/TeddyHyde-debug-unaligned.apk
 
-This drops you into a shell and you can play with the app, querying for buttons, or any other UI element. Once 
+This drops you into a shell/console sessions and you can play with the app, querying for buttons, or any other UI element. Once 
 you have figured out the proper element, via the text or ID, you can then add it to the step definitions and 
-build out your test.
+build out your test. If you don't have IRB logging turned on, this might be a good time to do that as you'll often review that log file to extract successful commands for your step files.
 
 The neat thing about console mode is it allows you to interact with the app normally by pressing and swiping, but also allows you to interact with the app via the calabash API. So, you can get to the place in the app you need to manually and then use the API to run automated commands you paste into your step definitions.
 
