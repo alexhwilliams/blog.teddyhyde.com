@@ -4,6 +4,8 @@ layout: post
 title: "A better way to test Android applications using Calabash"
 ---
 
+## Complex Android application testing made easy 
+
 This post details using calabash to run automated tests on Android applications (though calabash works with iOS as well). Calabash is simply the easiest way to test complex mobile applications and I show how to test my app, <a href="https://play.google.com/store/apps/details?id=com.EditorHyde.app">Teddy Hyde</a>
 , an Android editor for Jekyll blogs that uses the GitHub API and oAuth login. Testing applications which make use of APIs is a complex issue primarily because you are hitting a third party site and then layering your logic on top, and oAuth is a different bird with the same external coupling; these two requirements of this app confounded my testing attempts before finding calabash.
 
@@ -19,6 +21,8 @@ with data (called "bundles" supplied via a launching "intent") means you are des
 can easily be tested inside a container. Yet, the recent changes to the tooling environments, namely Android Studio and 
 gradle, have relegated the implementation and integration of testing to the bottom of the to-do list. It simply
 is not easy or obvious right now to add tests, especially UI tests via Robotium. 
+
+## Calabash makes testing easy and powerful
 
 I recently discovered Calabash, and it has changed my relationship to testing Android applications. Here is an easy to use android (and iOS) testing harness
 that works using Cucumber feature scripts. It is simple to get started with and has immense power because
