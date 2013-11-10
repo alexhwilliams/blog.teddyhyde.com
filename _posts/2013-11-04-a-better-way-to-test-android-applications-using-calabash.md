@@ -30,7 +30,7 @@ Calabash was developed by LessPainful, recently acquired by Xamarin. They have a
 embarassed as a rails developer to say I never used Cucumber (rspec has always been my cup of tea). So, this post 
 attempts to provide a gentle introduction to calabash, cucumber and testing the UI of your Android applications. Teddy
 Hyde uses oAuth for logging into your GitHub account, so this is a real world example of mixing vanilla UI components
-like buttons with UI components inside a WebView like you'll find if your application uses oAuth for authentication
+like native buttons with UI components inside a WebView like you'll find if your application uses oAuth for authentication
 outside of your app.
 
 To start, what is Cucumber? And, what is Calabash? Cucumber is a method of writing tests they say is "behaviour driven
