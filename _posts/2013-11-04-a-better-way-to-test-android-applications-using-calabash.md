@@ -38,6 +38,8 @@ Hyde uses oAuth for logging into your GitHub account, so this is a real world ex
 like native buttons with UI components inside a WebView like you'll find if your application uses oAuth for authentication
 outside of your app.
 
+## Cucumber and Calabash
+
 To start, what is Cucumber? And, what is Calabash? Cucumber is a method of writing tests, described by the authors as "behaviour driven
 development with elegance and joy." It certainly makes me happy and I do agree it is elegant. A cucumber test is often
 two files, the "features," (a human readable set of instructions) and the "steps," a set of code which implements the tests. For example, you 
@@ -80,6 +82,10 @@ you have figured out the proper element, via the text or ID, you can then add it
 build out your test. If you don't have IRB logging turned on, this might be a good time to do that as you'll often review that log file to extract successful commands for your step files.
 
 The neat thing about console mode is it allows you to interact with the app normally by pressing and swiping with your meaty fingers, but also allows you to interact with the app via the calabash API. So, you can get to the place in the app you need to manually and then use the API to run automated commands you paste into your step definitions. It is like driving a car with both automatic controls and a stick shift when you need it.
+
+## A real world test
+
+I am posting my scripts for testing one part of Teddy Hyde. You can model these to test other applications which use a combination of native UI elements and WebView elements like this application and which hit APIs.
 
 ## A few caveats ##
 
