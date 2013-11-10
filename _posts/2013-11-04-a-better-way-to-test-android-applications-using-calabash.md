@@ -58,7 +58,7 @@ like this:
 
 What this means, is there is a feature called "Add file to repository" with a scenario "as a logged in user I can add a file"
 that has one step defined, "given I start the login process." And, then we have defined that step as `touch "button"`. 
-`touch "button"` is calabash code to touch a button in your Android app. These steps match your features and you can do more advanced things like have a Regexp which matches and extracts parameters you then use in your steps.
+`touch "button"` is calabash code to touch a button in your Android app. These steps match your features and you can do more advanced things like have a Regexp which matches and extracts parameters you then use in your steps. There is also a large library of standard steps which calabash provides for you to do the most common things involved with interacting with an Android application.
 
 So, what's calabash? Calabash is a set of scripts and an API which setup your Android app on a real device (or emulator) and then 
 runs through the tests you've defined. Setting up on your device means installing the app, and installing a test runner
