@@ -33,9 +33,9 @@ Hyde uses oAuth for logging into your GitHub account, so this is a real world ex
 like native buttons with UI components inside a WebView like you'll find if your application uses oAuth for authentication
 outside of your app.
 
-To start, what is Cucumber? And, what is Calabash? Cucumber is a method of writing tests they say is "behaviour driven
+To start, what is Cucumber? And, what is Calabash? Cucumber is a method of writing tests, described by the authors as "behaviour driven
 development with elegance and joy." It certainly makes me happy and I do agree it is elegant. A cucumber test is often
-two files, the feature (a human readable set of instructions) and a set of code which implements the tests. For example, you 
+two files, the "features," (a human readable set of instructions) and the "steps," a set of code which implements the tests. For example, you 
 might have a test like this:
 
     Feature: Add file to repository
