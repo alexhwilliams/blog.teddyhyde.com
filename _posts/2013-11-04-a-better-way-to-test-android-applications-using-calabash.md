@@ -61,7 +61,7 @@ that has one step defined, "given I start the login process." And, then we have 
 `touch "button"` is calabash code to touch a button in your Android app. These steps match your features and you can do more advanced things like have a Regexp which matches and extracts parameters you then use in your steps. There is also a large library of standard steps which calabash provides for you to do the most common things involved with interacting with an Android application.
 
 So, what's calabash? Calabash is a set of scripts and an API which setup your Android app on a real device (or emulator) and then 
-runs through the tests you've defined. Setting up on your device means installing the app, and installing a test runner
+runs through the tests you've defined. Setting up on your device means installing the app, and installing a test runner server
 based on Robotium which can communicate clicks, scrolls, etc. Then, calabash takes your features and converts those to
 Robotium commands and runs your tests.
 
