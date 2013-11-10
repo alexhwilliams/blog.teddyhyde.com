@@ -18,7 +18,7 @@ Android is well designed and very test friendly. Thinking about components as "a
 with data (called "bundles" supplied via a launching "intent") means you are designing components which 
 can easily be tested inside a container. Yet, the recent changes to the tooling environments, namely Android Studio and 
 gradle, have relegated the implementation and integration of testing to the bottom of the to-do list. It simply
-is not easy or obvious about how to add tests, especially UI tests via Robotium. 
+is not easy or obvious right now to add tests, especially UI tests via Robotium. 
 
 I recently discovered Calabash, and it has changed my relationship to testing Android applications. Here is a easy to use android (and iOS) testing harness
 that works using Cucumber feature scripts. It is simple to get started with and has immense power because
