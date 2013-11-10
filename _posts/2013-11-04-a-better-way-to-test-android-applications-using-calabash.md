@@ -77,7 +77,7 @@ about the entire calabash API?" In this case, you want to run calabash using the
 
     calabash-android console ./build/apk/TeddyHyde-debug-unaligned.apk
 
-This drops you into a shell/console sessions and you can play with the app, querying for buttons, or any other UI element. Once 
+This drops you into a shell/console session and you can play with the app, querying for buttons, or any other UI element. Once 
 you have figured out the proper element, via the text or ID, you can then add it to the step definitions and 
 build out your test. If you don't have IRB logging turned on, this might be a good time to do that as you'll often review that log file to extract successful commands for your step files.
 
