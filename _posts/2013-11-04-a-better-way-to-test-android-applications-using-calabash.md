@@ -76,9 +76,15 @@ build out your test. If you don't have IRB logging turned on, this might be a go
 
 The neat thing about console mode is it allows you to interact with the app normally by pressing and swiping with your meaty fingers, but also allows you to interact with the app via the calabash API. So, you can get to the place in the app you need to manually and then use the API to run automated commands you paste into your step definitions. It is like driving a car with both automatic controls and a stick shift when you need it.
 
-When I installed calabash, if you are running Mavericks, you might need to update Xcode using this command `xcode-select --install`
+## A few caveats ##
+
+If you are running Mavericks, you might need to update Xcode using this command `xcode-select --install`
 as per this link
 
-http://stackoverflow.com/questions/19579640/installing-redcarpet-gem-on-mavericks
+[Installing binary gems on mavericks](http://stackoverflow.com/questions/19579640/installing-redcarpet-gem-on-mavericks)
+
+One thing I noticed was a huge difference between running my tests on a real device as opposed to a simulator. The simulator is really slow and any network operations took a long time. You can test for UI elements appearing within a certain time and these tests often failed on the emulator but worked in the real device. There must be a better way to test these kinds of things.
+
+
 
 
