@@ -54,7 +54,7 @@ that has one step defined, "given I start the login process." And, then we have 
 `touch "button"` is calabash code to touch a button in your Android app. These steps match your features and you can do more advanced things like have a Regexp which matches and extracts parameters you then use in your steps.
 
 So, what's calabash? Calabash is a set of scripts and an API which setup your Android app on a real device (or emulator) and then 
-run through the tests you've defined. Setting up on your device means installing the app, and installing a test runner
+runs through the tests you've defined. Setting up on your device means installing the app, and installing a test runner
 based on Robotium which can communicate clicks, scrolls, etc. Then, calabash takes your features and converts those to
 Robotium commands and runs your tests.
 
@@ -62,7 +62,7 @@ Specifically, to run your calabash features, you would do this:
 
     calabash-android run ./build/apk/TeddyHyde-debug-unaligned.apk
 
-If you have a directory called features, `calabash-android run` will run those features, using the steps defined
+If you have a directory called features which contains the features files described above, `calabash-android run` will run those features, using the steps defined
 in the step_definitions directory inside that directory.
 
 One thing missing for me in the documentation was "How do I figure out the step definitions without reading lots
