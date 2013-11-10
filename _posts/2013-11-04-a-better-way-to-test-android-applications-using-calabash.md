@@ -4,7 +4,7 @@ layout: post
 title: "A better way to test Android applications using Calabash"
 ---
 
-This post details using calabash to run automated tests on Android applications (though calabash works with iOS as well). Calabash is simply the easiest way to test complex mobile applications and I show how to test my app, Teddy Hyde, an Android editor that uses the GitHub API and oAuth login. Testing APIs is a complex issue primarily because you are hitting a third party site and then layering your logic on top, and oAuth is a different bird with the same external coupling; these two requirements of this app confounded my testing attempts before finding calabash.
+This post details using calabash to run automated tests on Android applications (though calabash works with iOS as well). Calabash is simply the easiest way to test complex mobile applications and I show how to test my app, Teddy Hyde, an Android editor that uses the GitHub API and oAuth login. Testing applications which make use of APIs is a complex issue primarily because you are hitting a third party site and then layering your logic on top, and oAuth is a different bird with the same external coupling; these two requirements of this app confounded my testing attempts before finding calabash.
 
 As Teddy Hyde has grown over the past ten months, the internal complexity has grown as well. I'm proud 
 of everything offered by this little Android editor for Jekyll blogs: Markdown and Asciidoc preview with just
@@ -19,7 +19,7 @@ can easily be tested inside a container. Yet, the recent changes to the tooling 
 gradle, have relegated the implementation and integration of testing to the bottom of the to-do list. It simply
 is not easy or obvious about how to add tests, especially UI tests via Robotium. 
 
-I recently discovered Calabash, and it blows my mind. Here is a easy to use android (and iOS) testing harness
+I recently discovered Calabash, and it has changed my relationship to testing Android applications. Here is a easy to use android (and iOS) testing harness
 that works using Cucumber feature scripts. It is simple to get started with and has immense power because
 it is a pure Ruby testing DSL. Ruby makes testing much easier than writing in Java. Java is a great language
 for high performance applications, but a poor language for writing test scripts, where terseness and simplicity trump
@@ -54,16 +54,16 @@ that has one step defined, "given I start the login process." And, then we have 
 `touch "button"` is calabash code to touch a button in your Android app.
 
 So, what's calabash? Calabash is a set of scripts and an API which setup your Android app on a real device (or emulator) and then 
-run through the tests you've definied. Setting up on your device means installing the app, and installing a test runner
+run through the tests you've defined. Setting up on your device means installing the app, and installing a test runner
 based on Robotium which can communicate clicks, scrolls, etc. Then, calabash takes your features and converts those to
 Robotium commands and runs your tests.
 
-Specifically, to run this feature, you would do this:
+Specifically, to run your calabash features, you would do this:
 
     calabash-android run ./build/apk/TeddyHyde-debug-unaligned.apk
 
 If you have a directory called features, `calabash-android run` will run those features, using the steps defined
-in the step_definitions directory.
+in the step_definitions directory inside that directory.
 
 One thing missing for me in the documentation was "How do I figure out the step definitions without reading lots
 about the entire calabash API?" In this case, you want to run using the console command:
