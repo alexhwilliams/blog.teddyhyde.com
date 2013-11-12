@@ -6,7 +6,8 @@ title: "A better way to test Android applications using Calabash"
 
 ## A video showing the power of calabash.
 
-This video shows calabash testing my app which uses oAuth to login and many parts of the GitHub API. No manual operations were performed; this was all automated using Calabash.
+This video shows calabash testing my app which uses oAuth to login and many parts of the GitHub API. 
+No manual operations were performed; this was all automated using Calabash.
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/kIJrnnFeAiY" frameborder="0" allowfullscreen></iframe>
 
