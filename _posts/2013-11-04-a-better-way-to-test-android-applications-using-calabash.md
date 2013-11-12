@@ -94,6 +94,10 @@ The neat thing about console mode is it allows you to interact with the app norm
 
 I am posting my scripts for testing one part of Teddy Hyde. You can model these to test other applications which use a combination of native UI elements and WebView elements like this application and which hit APIs.
 
+{% gist 7425175 %}
+
+I attempted to implement a cleanup() function which would hit the GitHub API and clean up my files, but did not finish this, so caveat emptor there.
+
 ## A few caveats ##
 
 If you are running Mavericks, you might need to update Xcode using this command `xcode-select --install`
