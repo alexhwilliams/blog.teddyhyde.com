@@ -98,6 +98,10 @@ I am posting my scripts for testing one part of Teddy Hyde. You can model these 
 
 I attempted to implement a cleanup() function which would hit the GitHub API and clean up my files, but did not finish this, so caveat emptor there.
 
+## Running across multiple devices using AppThwack
+
+I would be remiss if I did not mention an awesome service by my fellow Portlanders, <a href="http://appthwack.com">AppThwack</a>. AppThwack allows you to run test against hundreds of real devices, and they support calabash scripts. You simply upload your APK and upload a zip of your calabash directory, and AppThwack will run your calabash scripts against a battery of real devices with various screen resolutions and android versions.
+
 ## A few caveats ##
 
 If you are running Mavericks, you might need to update Xcode using this command `xcode-select --install`
