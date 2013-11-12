@@ -105,7 +105,7 @@ as per this link
 
 [Installing binary gems on mavericks](http://stackoverflow.com/questions/19579640/installing-redcarpet-gem-on-mavericks)
 
-One thing I noticed was a huge difference between running my tests on a real device as opposed to a simulator. The simulator is really slow and any network operations took a long time. You can test for UI elements appearing within a certain time and these tests often failed on the emulator but worked in the real device. There must be a better way to test these kinds of things.
+One thing I noticed was a huge difference between running my tests on a real device as opposed to a simulator. The simulator is really slow and any network operations took a long time. You can test for UI elements appearing within a certain time and these tests often failed on the emulator but worked in the real device. For this reason there are lots of wait calls in my scripts which I need to remove, but was struggling to find a balance between a working set of tests for both simulators and real devices. Fortunately, right when I was making this post I got my new Nexus 5, so the screencast is actually done by recording a real device using the `adb -s 0222fdc60910aede shell screenrecord /sdcard/calabash.mp4`. If you do use calabash on a KitKat device, make sure you install at least calabash v0.4.16 which has the latest Robotium.jar that supports KitKat.
 
 
 
