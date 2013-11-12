@@ -102,6 +102,8 @@ I attempted to implement a cleanup() function which would hit the GitHub API and
 
 I would be remiss if I did not mention an awesome service by my fellow Portlanders, <a href="http://appthwack.com">AppThwack</a>. AppThwack allows you to run test against hundreds of real devices, and they support calabash scripts. You simply upload your APK and upload a zip of your calabash directory, and AppThwack will run your calabash scripts against a battery of real devices with various screen resolutions and android versions.
 
+![/assets/images/appthwack.png](/assets/images/appthwack.png)
+
 ## A few caveats ##
 
 If you are running Mavericks, you might need to update Xcode using this command `xcode-select --install`
