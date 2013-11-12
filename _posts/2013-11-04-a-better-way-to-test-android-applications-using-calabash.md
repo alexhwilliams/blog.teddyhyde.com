@@ -4,6 +4,10 @@ layout: post
 title: "A better way to test Android applications using Calabash"
 ---
 
+## A video showing the power of calabash.
+
+This video shows calabash testing my app which uses oAuth to login and many parts of the GitHub API. No manual operations 
+
 ## The barriers to testing complex next generation Android applications
 
 This post details using calabash to run automated tests on Android applications (though calabash works with iOS as well). Calabash is simply the easiest way to test complex mobile applications and I show how to test my app, <a href="https://play.google.com/store/apps/details?id=com.EditorHyde.app">Teddy Hyde</a>
