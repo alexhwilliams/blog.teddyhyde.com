@@ -3,7 +3,7 @@ layout: post
 category: 
 title: "Teddy Hyde, now with ultra secure oAuth support"
 tagline: 
-tags : [] 
+tags : [oauth] 
 published: true
 ---
 
