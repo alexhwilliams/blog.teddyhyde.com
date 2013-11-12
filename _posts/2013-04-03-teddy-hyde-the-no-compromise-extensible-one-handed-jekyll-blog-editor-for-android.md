@@ -35,4 +35,4 @@ Teddy Hyde is optimized for Jekyll blogging. But, you can use it to edit any tex
 
 ## No iOS?
 
-Teddy Hyde is not yet available for iOS. And, it is open source, available on GitHub. [Fork me](http://github.com/xrd/TeddyHyde) and let's build the best mobile editor for Jekyll and GitHub.
+Teddy Hyde is not yet available for iOS. Want it? <a href="mailto:chris@teddyhyde.com">Let me know</a>.
