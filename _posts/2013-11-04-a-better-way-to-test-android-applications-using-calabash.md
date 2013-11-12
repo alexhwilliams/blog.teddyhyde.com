@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "A better way to test Android applications using Calabash"
 ---
