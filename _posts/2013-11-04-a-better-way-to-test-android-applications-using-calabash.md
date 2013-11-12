@@ -9,7 +9,7 @@ title: "A better way to test Android applications using Calabash"
 This video shows calabash testing my app which uses oAuth to login and many parts of the GitHub API. 
 No manual operations were performed; this was all automated using Calabash for Android.
 
-<object width="420" height="315"><param name="movie" value="//www.youtube.com/v/kIJrnnFeAiY?version=3&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/kIJrnnFeAiY?version=3&amp;hl=en_GB" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<object width="480" height="360"><param name="movie" value="//www.youtube.com/v/kIJrnnFeAiY?version=3&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/kIJrnnFeAiY?version=3&amp;hl=en_GB" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 ## The barriers to testing complex next generation Android applications
 
