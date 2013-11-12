@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+tags: calabash, ruby, android, chromebook
 title: "A better way to test Android applications using Calabash"
 ---
 
