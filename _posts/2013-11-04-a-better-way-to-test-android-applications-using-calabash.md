@@ -104,6 +104,9 @@ I would be remiss if I did not mention an awesome service by my fellow Portlande
 
 ![/assets/images/appthwack.png](/assets/images/appthwack.png)
 
+Whoops! Looks like I have done bugs to fix when <a href="https://play.google.com/store/apps/details?id=com.EditorHyde.app">Teddy Hyde</a> is used on other Android devices.
+
+
 ## A few caveats ##
 
 If you are running Mavericks, you might need to update Xcode using this command `xcode-select --install`
