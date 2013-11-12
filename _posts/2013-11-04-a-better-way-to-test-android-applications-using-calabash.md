@@ -91,6 +91,10 @@ build out your test. If you don't have IRB logging turned on, now might be a goo
 
 The neat thing about console mode is it allows you to interact with the app normally by pressing and swiping with your meaty fingers, but also allows you to interact with the app via the calabash API. So, you can get to the place in the app you need to manually and then use the API to run automated commands you paste into your step definitions. It is like driving a car with both automatic controls and a stick shift when you need it.
 
+## Command line friendly
+
+I love that I can run calabash scripts from within my gradle scripts or from the calabash-android command. I can even run these while my Nexus 5 is connected to my chromebook. 
+
 ## A real world test
 
 I am posting my scripts for testing one part of Teddy Hyde. You can model these to test other applications which use a combination of native UI elements and WebView elements like this application and which hit APIs.
