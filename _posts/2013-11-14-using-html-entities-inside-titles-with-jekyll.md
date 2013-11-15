@@ -10,7 +10,7 @@ Someone recently tried to use HTML entities inside their blog title. Jekyll cras
 
     malformed XML: missing tag start
 
-Even putting the escape character (\&lt;) did not work.
+Even putting the escape character (&amp;lt;) did not work.
 
 The solution is to do this:
 
