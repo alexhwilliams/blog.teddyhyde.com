@@ -6,7 +6,11 @@ tagline:
 tags : [] 
 published: true
 ---
-Someone recently tried to use HTML entities inside their blog title. Jekyll crashed when generating the page with:
+Someone recently tried to use HTML entities inside their blog title. 
+
+    title: <my html="tag">
+
+Jekyll crashed when generating the page with:
 
     malformed XML: missing tag start
 
