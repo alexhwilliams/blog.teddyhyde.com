@@ -4,7 +4,7 @@ category:
 title: "Using HTML entities inside titles with Jekyll"
 tagline: 
 tags : [] 
-published: false
+published: true
 ---
 Someone recently tried to use HTML entities inside their blog title. Jekyll crashed when generating the page with:
 
