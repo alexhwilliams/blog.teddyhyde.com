@@ -15,6 +15,6 @@ Even putting the escape character (\&lt;) did not work.
 The solution is to do this:
 
     title: |
-        &lt;%my html="tag"%&gt;
+        &lt;my html="tag"&gt;
 
 
