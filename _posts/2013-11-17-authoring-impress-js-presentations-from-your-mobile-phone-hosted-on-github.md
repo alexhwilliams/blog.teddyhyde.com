@@ -17,7 +17,7 @@ Run these commands from the git repository of your Jekyll blog:
 
     curl http://blog.teddyhyde.com/impress_template.html --out _include/impress.html
     
-Then, just author your Jekyll page or post using the impress template, like so:
+Then, just author your Jekyll page or post using the impress layout, like so:
 
     ---
     layout: impress 
