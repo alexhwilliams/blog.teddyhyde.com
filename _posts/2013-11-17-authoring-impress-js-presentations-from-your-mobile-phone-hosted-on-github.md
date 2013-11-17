@@ -31,5 +31,8 @@ Don't know the HTML for impress.js? Well, use impress.js from Teddy Hyde and you
 
 ## Creating and authoring impress.js from your mobile phone
 
+First, import the Impress.js package into Teddy Hyde. Go to "packages" from the menu after you have entered your repository, and choose "impress" from the list of packages.
+
+
  
 
