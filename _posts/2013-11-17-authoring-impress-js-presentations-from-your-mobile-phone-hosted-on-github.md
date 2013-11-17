@@ -7,7 +7,7 @@ tags : []
 published: false
 ---
 
-If you use Jekyll to blog, did you know you can easily author impress.js presentations from your blog? And, if you use <a href="https://play.google.com/store/apps/details?id=com.EditorHyde.app">Teddy Hyde</a>, the Jekyll editor for Android, you can author and share impress.js presentations from your mobile phone?
+If you use Jekyll to blog, did you know you can easily author impress.js presentations from your blog? And, did you know that if you use <a href="https://play.google.com/store/apps/details?id=com.EditorHyde.app">Teddy Hyde</a>, the Jekyll editor for Android, you can author impress.js presentations from your mobile phone, and even share them privately to solicit feedback?
 
 First I will show you how to add impress.js presentations to your Jekyll blog via command line. Then, I will show you how to do it using your mobile phone, and hopefully you'll agree it is much easier and cooler to do it from your mobile device.
 
