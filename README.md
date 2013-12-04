@@ -1,3 +1,6 @@
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/xrd/blog.teddyhyde.com/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
